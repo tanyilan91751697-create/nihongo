@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:41:10.612Z",
+  "generated_at": "2026-09-09T16:04:45.660Z",
   "note": "Token-sequence rules matched against kuromoji (IPADIC) output. Add entries by hand as you test with real text; the Reader reloads this file when it changes.",
   "rules": [
     {
