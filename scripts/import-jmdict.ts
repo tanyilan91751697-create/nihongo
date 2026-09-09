@@ -73,13 +73,11 @@ async function importFromXml(file: string, sourceUrl: string): Promise<number> {
   let glosses: string[] = [];
   let pos = new Set<string>();
   let priorities = new Set<string>();
-  let current = '';
   let text = '';
 
   const parser = sax.createStream(false, { trim: true, lowercase: true });
 
   parser.on('opentag', (node) => {
-    current = node.name;
     text = '';
     if (node.name === 'entry') {
       entSeq = null;
@@ -148,7 +146,6 @@ async function importFromXml(file: string, sourceUrl: string): Promise<number> {
         break;
     }
     text = '';
-    current = '';
   });
 
   await new Promise<void>((resolve, reject) => {

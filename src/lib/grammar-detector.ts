@@ -53,7 +53,6 @@ export type GrammarMatch = {
 const RULES_PATH = path.join(process.cwd(), 'data', 'grammar_detection_rules.json');
 
 declare global {
-  // eslint-disable-next-line no-var
   var __grammarRules: { mtime: number; rules: DetectionRule[] } | undefined;
 }
 

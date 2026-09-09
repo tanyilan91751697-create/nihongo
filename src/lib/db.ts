@@ -11,7 +11,6 @@ import Database from 'better-sqlite3';
 const DB_PATH = process.env.NIHONGO_DB ?? path.join(process.cwd(), 'db', 'nihongo.db');
 
 declare global {
-  // eslint-disable-next-line no-var
   var __nihongoDb: Database.Database | undefined;
 }
 
@@ -230,7 +229,7 @@ export function upsertKnowledgeNode(input: {
   db.prepare(
     `INSERT INTO knowledge_nodes (node_type, ref_id, surface, reading, status)
      VALUES (@node_type, @ref_id, @surface, @reading, @status)
-     ON CONFLICT(node_type, surface, reading) DO UPDATE SET
+     ON CONFLICT(node_type, surface, IFNULL(reading, '')) DO UPDATE SET
        encounters = knowledge_nodes.encounters + 1,
        last_seen_at = datetime('now'),
        ref_id = COALESCE(excluded.ref_id, knowledge_nodes.ref_id),

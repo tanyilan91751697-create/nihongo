@@ -27,7 +27,7 @@ export function importChunks(): number {
   const stmt = db.prepare(`
     INSERT INTO chunks (phrase, reading, meaning, jlpt_level, topic_tags, source, island_id)
     VALUES (@phrase, @reading, @meaning, @jlpt_level, @topic_tags, 'seed', NULL)
-    ON CONFLICT(phrase, source, island_id) DO UPDATE SET
+    ON CONFLICT(phrase, source, IFNULL(island_id, -1)) DO UPDATE SET
       reading = excluded.reading, meaning = excluded.meaning,
       jlpt_level = excluded.jlpt_level, topic_tags = excluded.topic_tags
   `);

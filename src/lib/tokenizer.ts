@@ -43,7 +43,6 @@ export type Token = {
 };
 
 declare global {
-  // eslint-disable-next-line no-var
   var __kuromojiTokenizer: Promise<Tokenizer<KuromojiToken>> | undefined;
 }
 

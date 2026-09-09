@@ -58,7 +58,7 @@ export function useRecorder(onComplete: (blob: Blob, durationSec: number) => voi
 
   useEffect(
     () => () => {
-      recorderRef.current?.state === 'recording' && recorderRef.current.stop();
+      if (recorderRef.current?.state === 'recording') recorderRef.current.stop();
       streamRef.current?.getTracks().forEach((track) => track.stop());
     },
     [],

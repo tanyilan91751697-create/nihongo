@@ -78,9 +78,14 @@ CREATE TABLE IF NOT EXISTS chunks (
   topic_tags   TEXT,                              -- comma separated
   source       TEXT NOT NULL DEFAULT 'seed',      -- seed | island | reader | manual
   island_id    INTEGER REFERENCES islands(id) ON DELETE SET NULL,
-  created_at   TEXT NOT NULL DEFAULT (datetime('now')),
-  UNIQUE(phrase, source, island_id)
+  created_at   TEXT NOT NULL DEFAULT (datetime('now'))
 );
+
+-- SQLite treats NULLs as distinct in a UNIQUE constraint, so a plain
+-- UNIQUE(phrase, source, island_id) would let every re-import duplicate the
+-- seed chunks (island_id NULL). Fold NULL into a sentinel instead.
+CREATE UNIQUE INDEX IF NOT EXISTS ux_chunks_identity
+  ON chunks(phrase, source, IFNULL(island_id, -1));
 
 CREATE INDEX IF NOT EXISTS idx_chunks_level ON chunks(jlpt_level);
 CREATE INDEX IF NOT EXISTS idx_chunks_island ON chunks(island_id);
@@ -99,9 +104,13 @@ CREATE TABLE IF NOT EXISTS knowledge_nodes (
   encounters    INTEGER NOT NULL DEFAULT 1,
   first_seen_at TEXT NOT NULL DEFAULT (datetime('now')),
   last_seen_at  TEXT NOT NULL DEFAULT (datetime('now')),
-  notes         TEXT,
-  UNIQUE(node_type, surface, reading)
+  notes         TEXT
 );
+
+-- Same NULL problem as chunks: a word with no reading would otherwise get a
+-- fresh row on every encounter instead of incrementing the counter.
+CREATE UNIQUE INDEX IF NOT EXISTS ux_knowledge_identity
+  ON knowledge_nodes(node_type, surface, IFNULL(reading, ''));
 
 CREATE INDEX IF NOT EXISTS idx_knowledge_status ON knowledge_nodes(status);
 CREATE INDEX IF NOT EXISTS idx_knowledge_type   ON knowledge_nodes(node_type);
