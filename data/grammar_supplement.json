@@ -1,0 +1,901 @@
+[
+ {
+  "level": "N5",
+  "pattern": "〜は〜です",
+  "term": "は",
+  "meaning_en": "X is Y — topic marker + copula",
+  "formation": "Noun は Noun/Na-adj/I-adj です",
+  "explanation": "は marks the topic of the sentence; です is the polite copula. The most basic Japanese sentence pattern.",
+  "examples": [
+   {
+    "japanese": "私は学生です。",
+    "reading": "わたしはがくせいです。",
+    "english": "I am a student."
+   },
+   {
+    "japanese": "これは本です。",
+    "reading": "これはほんです。",
+    "english": "This is a book."
+   }
+  ],
+  "tags": [
+   "copula",
+   "topic-marker",
+   "particle"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜は〜ではありません",
+  "term": "ではありません",
+  "meaning_en": "X is not Y — negative copula",
+  "formation": "Noun は Noun/Na-adj ではありません（じゃありません）",
+  "explanation": "Polite negative of です. じゃありません is the casual-polite contraction.",
+  "examples": [
+   {
+    "japanese": "田中さんは先生ではありません。",
+    "reading": "たなかさんはせんせいではありません。",
+    "english": "Mr. Tanaka is not a teacher."
+   },
+   {
+    "japanese": "これは私のじゃありません。",
+    "reading": "これはわたしのじゃありません。",
+    "english": "This is not mine."
+   }
+  ],
+  "tags": [
+   "copula",
+   "negation"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜が（主格）",
+  "term": "が",
+  "meaning_en": "subject marker; also marks the object of likes/wants/ability",
+  "formation": "Noun が + verb/adjective",
+  "explanation": "が marks the grammatical subject, new information, and the object of stative predicates such as 好き, できる, ある, わかる.",
+  "examples": [
+   {
+    "japanese": "雨が降っています。",
+    "reading": "あめがふっています。",
+    "english": "It is raining."
+   },
+   {
+    "japanese": "日本語がわかります。",
+    "reading": "にほんごがわかります。",
+    "english": "I understand Japanese."
+   }
+  ],
+  "tags": [
+   "particle",
+   "subject"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜を（目的語）",
+  "term": "を",
+  "meaning_en": "direct object marker",
+  "formation": "Noun を + transitive verb",
+  "explanation": "を marks the direct object of a transitive verb. It also marks the path traversed with movement verbs (公園を歩く).",
+  "examples": [
+   {
+    "japanese": "ご飯を食べます。",
+    "reading": "ごはんをたべます。",
+    "english": "I eat rice / a meal."
+   },
+   {
+    "japanese": "公園を散歩しました。",
+    "reading": "こうえんをさんぽしました。",
+    "english": "I took a walk through the park."
+   }
+  ],
+  "tags": [
+   "particle",
+   "object"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜に（場所・時間・相手）",
+  "term": "に",
+  "meaning_en": "at / in / to — location of existence, point in time, destination, recipient",
+  "formation": "Noun に + verb",
+  "explanation": "に marks the place where something exists, a specific point in time, the destination of movement, and the recipient of an action.",
+  "examples": [
+   {
+    "japanese": "七時に起きます。",
+    "reading": "しちじにおきます。",
+    "english": "I get up at seven."
+   },
+   {
+    "japanese": "友達に手紙を書きました。",
+    "reading": "ともだちにてがみをかきました。",
+    "english": "I wrote a letter to a friend."
+   }
+  ],
+  "tags": [
+   "particle",
+   "time",
+   "location"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜へ（方向）",
+  "term": "へ",
+  "meaning_en": "toward — direction of movement",
+  "formation": "Noun へ + movement verb",
+  "explanation": "へ (pronounced え) marks the direction of movement. Interchangeable with に for destinations, but へ emphasises the direction rather than the arrival point.",
+  "examples": [
+   {
+    "japanese": "来年、日本へ行きます。",
+    "reading": "らいねん、にほんへいきます。",
+    "english": "I am going to Japan next year."
+   },
+   {
+    "japanese": "駅へ向かっています。",
+    "reading": "えきへむかっています。",
+    "english": "I am heading toward the station."
+   }
+  ],
+  "tags": [
+   "particle",
+   "direction"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜で（場所）",
+  "term": "で",
+  "meaning_en": "at / in — the place where an action happens",
+  "formation": "Place で + action verb",
+  "explanation": "で marks where an action takes place, in contrast with に which marks where something merely exists.",
+  "examples": [
+   {
+    "japanese": "図書館で勉強します。",
+    "reading": "としょかんでべんきょうします。",
+    "english": "I study at the library."
+   },
+   {
+    "japanese": "レストランで食事をしました。",
+    "reading": "レストランでしょくじをしました。",
+    "english": "I had a meal at a restaurant."
+   }
+  ],
+  "tags": [
+   "particle",
+   "location"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜と（並列・共同）",
+  "term": "と",
+  "meaning_en": "and (exhaustive list); with (together)",
+  "formation": "Noun と Noun／Person と + verb",
+  "explanation": "と joins nouns in a complete list, and marks the person you do something with.",
+  "examples": [
+   {
+    "japanese": "パンと牛乳を買いました。",
+    "reading": "パンとぎゅうにゅうをかいました。",
+    "english": "I bought bread and milk."
+   },
+   {
+    "japanese": "友達と映画を見ました。",
+    "reading": "ともだちとえいがをみました。",
+    "english": "I watched a movie with a friend."
+   }
+  ],
+  "tags": [
+   "particle",
+   "conjunction"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜も",
+  "term": "も",
+  "meaning_en": "also, too; (with negative) not either",
+  "formation": "Noun も + predicate",
+  "explanation": "も replaces は or が to mean “also”. With a negative predicate it means “not … either”.",
+  "examples": [
+   {
+    "japanese": "私も学生です。",
+    "reading": "わたしもがくせいです。",
+    "english": "I am a student too."
+   },
+   {
+    "japanese": "お金も時間もありません。",
+    "reading": "おかねもじかんもありません。",
+    "english": "I have neither money nor time."
+   }
+  ],
+  "tags": [
+   "particle",
+   "addition"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜の（所有・修飾）",
+  "term": "の",
+  "meaning_en": "'s — possession and noun modification",
+  "formation": "Noun の Noun",
+  "explanation": "の links two nouns: possession (私の本), attribute (日本語の先生), or apposition.",
+  "examples": [
+   {
+    "japanese": "これは私の傘です。",
+    "reading": "これはわたしのかさです。",
+    "english": "This is my umbrella."
+   },
+   {
+    "japanese": "日本語の先生に聞きました。",
+    "reading": "にほんごのせんせいにききました。",
+    "english": "I asked my Japanese teacher."
+   }
+  ],
+  "tags": [
+   "particle",
+   "possession"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜から〜まで",
+  "term": "から〜まで",
+  "meaning_en": "from … until / to …",
+  "formation": "Noun(time/place) から Noun(time/place) まで",
+  "explanation": "Marks a span in time or space. Either half can be used alone.",
+  "examples": [
+   {
+    "japanese": "九時から五時まで働きます。",
+    "reading": "くじからごじまではたらきます。",
+    "english": "I work from nine to five."
+   },
+   {
+    "japanese": "東京から大阪まで新幹線で行きました。",
+    "reading": "とうきょうからおおさかまでしんかんせんでいきました。",
+    "english": "I went from Tokyo to Osaka by bullet train."
+   }
+  ],
+  "tags": [
+   "particle",
+   "range",
+   "time"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜ています（進行・状態）",
+  "term": "ている",
+  "meaning_en": "is doing / is in the state of having done",
+  "formation": "Verb て-form + いる／います",
+  "explanation": "With action verbs it expresses an ongoing action; with change-of-state verbs it expresses the resulting state (結婚しています = is married).",
+  "examples": [
+   {
+    "japanese": "今、宿題をしています。",
+    "reading": "いま、しゅくだいをしています。",
+    "english": "I am doing my homework now."
+   },
+   {
+    "japanese": "兄は東京に住んでいます。",
+    "reading": "あにはとうきょうにすんでいます。",
+    "english": "My older brother lives in Tokyo."
+   }
+  ],
+  "tags": [
+   "aspect",
+   "progressive"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜ました",
+  "term": "ました",
+  "meaning_en": "polite past affirmative",
+  "formation": "Verb ます-stem + ました",
+  "explanation": "The polite past tense. Its negative is 〜ませんでした.",
+  "examples": [
+   {
+    "japanese": "昨日、映画を見ました。",
+    "reading": "きのう、えいがをみました。",
+    "english": "I watched a movie yesterday."
+   },
+   {
+    "japanese": "朝ご飯を食べませんでした。",
+    "reading": "あさごはんをたべませんでした。",
+    "english": "I did not eat breakfast."
+   }
+  ],
+  "tags": [
+   "tense",
+   "polite"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜があります／〜がいます",
+  "term": "ある・いる",
+  "meaning_en": "there is / there are — existence",
+  "formation": "Place に Noun が あります（inanimate）／います（animate）",
+  "explanation": "あります is used for inanimate things, います for people and animals.",
+  "examples": [
+   {
+    "japanese": "机の上に本があります。",
+    "reading": "つくえのうえにほんがあります。",
+    "english": "There is a book on the desk."
+   },
+   {
+    "japanese": "公園に子供がいます。",
+    "reading": "こうえんにこどもがいます。",
+    "english": "There are children in the park."
+   }
+  ],
+  "tags": [
+   "existence"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜が好きです",
+  "term": "好き",
+  "meaning_en": "to like — X が好きです",
+  "formation": "Noun が 好き／嫌い／上手／下手 です",
+  "explanation": "Stative na-adjectives of preference and ability take が, not を.",
+  "examples": [
+   {
+    "japanese": "私は日本の音楽が好きです。",
+    "reading": "わたしはにほんのおんがくがすきです。",
+    "english": "I like Japanese music."
+   },
+   {
+    "japanese": "彼は料理が上手です。",
+    "reading": "かれはりょうりがじょうずです。",
+    "english": "He is good at cooking."
+   }
+  ],
+  "tags": [
+   "preference",
+   "stative"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "い形容詞＋名詞",
+  "term": "い形容詞",
+  "meaning_en": "i-adjective modifying a noun",
+  "formation": "い-adjective (plain form) + Noun",
+  "explanation": "I-adjectives attach directly to the noun. The negative is 〜くない, the past 〜かった.",
+  "examples": [
+   {
+    "japanese": "新しい車を買いました。",
+    "reading": "あたらしいくるまをかいました。",
+    "english": "I bought a new car."
+   },
+   {
+    "japanese": "この店は安くないです。",
+    "reading": "このみせはやすくないです。",
+    "english": "This shop is not cheap."
+   }
+  ],
+  "tags": [
+   "adjective"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "な形容詞＋な＋名詞",
+  "term": "な形容詞",
+  "meaning_en": "na-adjective modifying a noun",
+  "formation": "Na-adjective + な + Noun",
+  "explanation": "Na-adjectives need な before the noun they modify, and use です／ではありません as a predicate.",
+  "examples": [
+   {
+    "japanese": "静かな部屋がいいです。",
+    "reading": "しずかなへやがいいです。",
+    "english": "I would like a quiet room."
+   },
+   {
+    "japanese": "この町は便利です。",
+    "reading": "このまちはべんりです。",
+    "english": "This town is convenient."
+   }
+  ],
+  "tags": [
+   "adjective"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜てもいいです",
+  "term": "てもいい",
+  "meaning_en": "may / it is all right to …",
+  "formation": "Verb て-form + もいいです",
+  "explanation": "Grants or asks permission. The question form 〜てもいいですか asks for permission.",
+  "examples": [
+   {
+    "japanese": "ここに座ってもいいですか。",
+    "reading": "ここにすわってもいいですか。",
+    "english": "May I sit here?"
+   },
+   {
+    "japanese": "写真を撮ってもいいです。",
+    "reading": "しゃしんをとってもいいです。",
+    "english": "You may take photos."
+   }
+  ],
+  "tags": [
+   "permission"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜が、〜（逆接）",
+  "term": "が",
+  "meaning_en": "but, however (clause connector)",
+  "formation": "Sentence1 が、Sentence2",
+  "explanation": "Connects two clauses with a mild contrast; softer and more formal than けど.",
+  "examples": [
+   {
+    "japanese": "高いですが、おいしいです。",
+    "reading": "たかいですが、おいしいです。",
+    "english": "It is expensive, but it is delicious."
+   },
+   {
+    "japanese": "日本語は難しいですが、面白いです。",
+    "reading": "にほんごはむずかしいですが、おもしろいです。",
+    "english": "Japanese is difficult, but it is interesting."
+   }
+  ],
+  "tags": [
+   "concession",
+   "conjunction"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜から（理由）",
+  "term": "から",
+  "meaning_en": "because, since",
+  "formation": "Plain/polite clause + から",
+  "explanation": "States a reason. The reason comes first, the result second.",
+  "examples": [
+   {
+    "japanese": "寒いから、窓を閉めます。",
+    "reading": "さむいから、まどをしめます。",
+    "english": "Because it is cold, I will close the window."
+   },
+   {
+    "japanese": "時間がなかったから、行きませんでした。",
+    "reading": "じかんがなかったから、いきませんでした。",
+    "english": "I did not go because I had no time."
+   }
+  ],
+  "tags": [
+   "cause-reason"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜て、〜（並列・継起）",
+  "term": "て形",
+  "meaning_en": "and then — linking clauses with the te-form",
+  "formation": "Verb て-form + clause",
+  "explanation": "Joins actions in sequence or lists co-occurring states. Tense is carried by the final verb only.",
+  "examples": [
+   {
+    "japanese": "朝起きて、顔を洗います。",
+    "reading": "あさおきて、かおをあらいます。",
+    "english": "I get up in the morning and wash my face."
+   },
+   {
+    "japanese": "駅へ行って、切符を買いました。",
+    "reading": "えきへいって、きっぷをかいました。",
+    "english": "I went to the station and bought a ticket."
+   }
+  ],
+  "tags": [
+   "sequence",
+   "conjunction"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜ないでください",
+  "term": "ないでください",
+  "meaning_en": "please do not …",
+  "formation": "Verb ない-form + でください",
+  "explanation": "A polite negative request.",
+  "examples": [
+   {
+    "japanese": "ここで写真を撮らないでください。",
+    "reading": "ここでしゃしんをとらないでください。",
+    "english": "Please do not take photos here."
+   },
+   {
+    "japanese": "心配しないでください。",
+    "reading": "しんぱいしないでください。",
+    "english": "Please do not worry."
+   }
+  ],
+  "tags": [
+   "request",
+   "negation"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜でしょう",
+  "term": "でしょう",
+  "meaning_en": "probably; right? (seeking agreement)",
+  "formation": "Plain form + でしょう",
+  "explanation": "Expresses probability, or with rising intonation invites agreement.",
+  "examples": [
+   {
+    "japanese": "明日は雨でしょう。",
+    "reading": "あしたはあめでしょう。",
+    "english": "It will probably rain tomorrow."
+   },
+   {
+    "japanese": "彼はもう来ているでしょう。",
+    "reading": "かれはもうきているでしょう。",
+    "english": "He has probably already arrived."
+   }
+  ],
+  "tags": [
+   "conjecture"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "これ・それ・あれ",
+  "term": "こそあど",
+  "meaning_en": "this / that / that over there",
+  "formation": "これ・それ・あれ + は …／この・その・あの + Noun",
+  "explanation": "The ko-so-a-do series: near the speaker, near the listener, away from both, and the question word どれ／どの.",
+  "examples": [
+   {
+    "japanese": "それは何ですか。",
+    "reading": "それはなんですか。",
+    "english": "What is that?"
+   },
+   {
+    "japanese": "あの建物は病院です。",
+    "reading": "あのたてものはびょういんです。",
+    "english": "That building over there is a hospital."
+   }
+  ],
+  "tags": [
+   "demonstrative"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜ませんか",
+  "term": "ませんか",
+  "meaning_en": "would you like to …? (invitation)",
+  "formation": "Verb ます-stem + ませんか",
+  "explanation": "A polite invitation. 〜ましょう then proposes doing it together.",
+  "examples": [
+   {
+    "japanese": "一緒に昼ご飯を食べませんか。",
+    "reading": "いっしょにひるごはんをたべませんか。",
+    "english": "Would you like to have lunch together?"
+   },
+   {
+    "japanese": "週末、映画を見ませんか。",
+    "reading": "しゅうまつ、えいがをみませんか。",
+    "english": "Would you like to see a movie this weekend?"
+   }
+  ],
+  "tags": [
+   "invitation"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜より〜のほうが",
+  "term": "ほうが",
+  "meaning_en": "A is more … than B",
+  "formation": "Noun1 より Noun2 のほうが Adjective です",
+  "explanation": "The standard comparison pattern. より marks the standard of comparison.",
+  "examples": [
+   {
+    "japanese": "電車よりバスのほうが安いです。",
+    "reading": "でんしゃよりバスのほうがやすいです。",
+    "english": "The bus is cheaper than the train."
+   },
+   {
+    "japanese": "夏より冬のほうが好きです。",
+    "reading": "なつよりふゆのほうがすきです。",
+    "english": "I like winter more than summer."
+   }
+  ],
+  "tags": [
+   "comparison"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "数量詞（助数詞）",
+  "term": "助数詞",
+  "meaning_en": "counters — 一つ, 二人, 三枚 …",
+  "formation": "Number + counter suffix",
+  "explanation": "Japanese counts objects with a classifier that depends on the shape or type of the object.",
+  "examples": [
+   {
+    "japanese": "りんごを三つください。",
+    "reading": "りんごをみっつください。",
+    "english": "Three apples, please."
+   },
+   {
+    "japanese": "学生が五人います。",
+    "reading": "がくせいがごにんいます。",
+    "english": "There are five students."
+   }
+  ],
+  "tags": [
+   "counter",
+   "quantity"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜んです／〜のです",
+  "term": "んです",
+  "meaning_en": "explanatory ending — the reason is that …",
+  "formation": "Plain form (+ な for nouns/na-adj) + んです",
+  "explanation": "Provides or asks for an explanation, adding a sense of context to the statement.",
+  "examples": [
+   {
+    "japanese": "どうして休んだんですか。",
+    "reading": "どうしてやすんだんですか。",
+    "english": "Why did you take the day off?"
+   },
+   {
+    "japanese": "頭が痛いんです。",
+    "reading": "あたまがいたいんです。",
+    "english": "It's that I have a headache."
+   }
+  ],
+  "tags": [
+   "explanatory"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜ことができます",
+  "term": "ことができる",
+  "meaning_en": "can, be able to",
+  "formation": "Verb dictionary form + ことができます",
+  "explanation": "Expresses ability or possibility; more formal than the potential form.",
+  "examples": [
+   {
+    "japanese": "日本語を話すことができます。",
+    "reading": "にほんごをはなすことができます。",
+    "english": "I can speak Japanese."
+   },
+   {
+    "japanese": "ここで泳ぐことができますか。",
+    "reading": "ここでおよぐことができますか。",
+    "english": "Can one swim here?"
+   }
+  ],
+  "tags": [
+   "ability"
+  ]
+ },
+ {
+  "level": "N5",
+  "pattern": "〜たことがあります",
+  "term": "たことがある",
+  "meaning_en": "have (once) done — experience",
+  "formation": "Verb た-form + ことがあります",
+  "explanation": "Describes past experience rather than a specific past event.",
+  "examples": [
+   {
+    "japanese": "北海道へ行ったことがあります。",
+    "reading": "ほっかいどうへいったことがあります。",
+    "english": "I have been to Hokkaido."
+   },
+   {
+    "japanese": "寿司を作ったことがありません。",
+    "reading": "すしをつくったことがありません。",
+    "english": "I have never made sushi."
+   }
+  ],
+  "tags": [
+   "experience"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜ば〜ほど",
+  "term": "ば〜ほど",
+  "meaning_en": "the more … the more …",
+  "formation": "Verb ば-form + Verb dictionary form + ほど",
+  "explanation": "Expresses proportional change between two things.",
+  "examples": [
+   {
+    "japanese": "練習すればするほど上手になります。",
+    "reading": "れんしゅうすればするほどじょうずになります。",
+    "english": "The more you practise, the better you get."
+   },
+   {
+    "japanese": "考えれば考えるほど分からなくなる。",
+    "reading": "かんがえればかんがえるほどわからなくなる。",
+    "english": "The more I think about it, the less I understand."
+   }
+  ],
+  "tags": [
+   "proportion"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜ても",
+  "term": "ても",
+  "meaning_en": "even if …",
+  "formation": "Verb て-form + も／い-adj くても／Noun・na-adj でも",
+  "explanation": "Concessive conditional: the result holds regardless of the condition.",
+  "examples": [
+   {
+    "japanese": "雨が降っても行きます。",
+    "reading": "あめがふってもいきます。",
+    "english": "I will go even if it rains."
+   },
+   {
+    "japanese": "高くても買います。",
+    "reading": "たかくてもかいます。",
+    "english": "I will buy it even if it is expensive."
+   }
+  ],
+  "tags": [
+   "concession",
+   "conditional"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜れる・〜られる（受身）",
+  "term": "受身",
+  "meaning_en": "passive — to be …ed",
+  "formation": "Group1 ～あ+れる／Group2 ～られる／する→される",
+  "explanation": "The passive; often carries a nuance of adversity when the subject is affected negatively.",
+  "examples": [
+   {
+    "japanese": "先生に褒められました。",
+    "reading": "せんせいにほめられました。",
+    "english": "I was praised by the teacher."
+   },
+   {
+    "japanese": "雨に降られて、濡れました。",
+    "reading": "あめにふられて、ぬれました。",
+    "english": "I got rained on and got wet."
+   }
+  ],
+  "tags": [
+   "passive-potential",
+   "voice"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜れる・〜られる（可能）",
+  "term": "可能形",
+  "meaning_en": "potential — can do",
+  "formation": "Group1 ～え+る／Group2 ～られる／する→できる",
+  "explanation": "The potential form. The object usually takes が rather than を.",
+  "examples": [
+   {
+    "japanese": "漢字が読めるようになりました。",
+    "reading": "かんじがよめるようになりました。",
+    "english": "I have become able to read kanji."
+   },
+   {
+    "japanese": "明日なら来られます。",
+    "reading": "あしたならこられます。",
+    "english": "I can come if it's tomorrow."
+   }
+  ],
+  "tags": [
+   "passive-potential",
+   "ability"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜てくれる・〜てもらう・〜てあげる",
+  "term": "授受表現",
+  "meaning_en": "do something for someone / have someone do something",
+  "formation": "Verb て-form + くれる／もらう／あげる",
+  "explanation": "The giving-and-receiving verbs mark who benefits from the action and from whose point of view it is told.",
+  "examples": [
+   {
+    "japanese": "友達が手伝ってくれました。",
+    "reading": "ともだちがてつだってくれました。",
+    "english": "My friend helped me (and I'm grateful)."
+   },
+   {
+    "japanese": "先生に説明してもらいました。",
+    "reading": "せんせいにせつめいしてもらいました。",
+    "english": "I had the teacher explain it to me."
+   }
+  ],
+  "tags": [
+   "benefactive"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜そうです（様態）",
+  "term": "そうだ（様態）",
+  "meaning_en": "looks like, seems (from appearance)",
+  "formation": "Verb ます-stem／い-adj (drop い)／na-adj + そうです",
+  "explanation": "Conjecture based on what you can see. Distinct from the hearsay 〜そうだ, which attaches to the plain form.",
+  "examples": [
+   {
+    "japanese": "このケーキはおいしそうです。",
+    "reading": "このケーキはおいしそうです。",
+    "english": "This cake looks delicious."
+   },
+   {
+    "japanese": "雨が降りそうです。",
+    "reading": "あめがふりそうです。",
+    "english": "It looks like it is going to rain."
+   }
+  ],
+  "tags": [
+   "conjecture"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "〜させていただきます",
+  "term": "させていただく",
+  "meaning_en": "(humbly) I will do …",
+  "formation": "Verb causative て-form + いただきます",
+  "explanation": "A humble expression asking permission to do something, common in business Japanese.",
+  "examples": [
+   {
+    "japanese": "明日、休ませていただきます。",
+    "reading": "あした、やすませていただきます。",
+    "english": "I would like to take tomorrow off."
+   },
+   {
+    "japanese": "説明させていただきます。",
+    "reading": "せつめいさせていただきます。",
+    "english": "Allow me to explain."
+   }
+  ],
+  "tags": [
+   "keigo",
+   "humble"
+  ]
+ },
+ {
+  "level": "N4",
+  "pattern": "お〜になる／お〜する",
+  "term": "敬語（尊敬・謙譲）",
+  "meaning_en": "honorific / humble verb forms",
+  "formation": "お + ます-stem + になる（尊敬）／お + ます-stem + する（謙譲）",
+  "explanation": "The regular honorific pattern raises the other person; the humble pattern lowers the speaker.",
+  "examples": [
+   {
+    "japanese": "社長はもうお帰りになりました。",
+    "reading": "しゃちょうはもうおかえりになりました。",
+    "english": "The president has already gone home."
+   },
+   {
+    "japanese": "お荷物をお持ちします。",
+    "reading": "おにもつをおもちします。",
+    "english": "Let me carry your luggage."
+   }
+  ],
+  "tags": [
+   "keigo"
+  ]
+ }
+]

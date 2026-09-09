@@ -1,0 +1,4853 @@
+[
+  {
+    "phrase": "いただきます",
+    "reading": "いただきます",
+    "meaning": "said before eating",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "いってきます",
+    "reading": "いってきます",
+    "meaning": "I'm off (said when leaving home)",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お金を使う",
+    "reading": "おかねをつかう",
+    "meaning": "to use money",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お金を借りる",
+    "reading": "おかねをかりる",
+    "meaning": "to borrow money",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お酒を飲む",
+    "reading": "おさけをのむ",
+    "meaning": "to drink / to take alcohol",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "phrase": "お茶を飲む",
+    "reading": "おちゃをのむ",
+    "meaning": "to drink / to take tea",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food"
+    ]
+  },
+  {
+    "phrase": "お茶を入れる",
+    "reading": "おちゃをいれる",
+    "meaning": "to put in / to make (tea) tea",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food"
+    ]
+  },
+  {
+    "phrase": "ごちそうさまでした",
+    "reading": "ごちそうさまでした",
+    "meaning": "thank you for the meal",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ご飯を作る",
+    "reading": "ごはんをつくる",
+    "meaning": "to make a meal",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ご飯を食べる",
+    "reading": "ごはんをたべる",
+    "meaning": "to eat a meal",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ただいま帰りました",
+    "reading": "ただいまかえりました",
+    "meaning": "I'm home",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ちょっと待ってください",
+    "reading": "ちょっとまってください",
+    "meaning": "please wait a moment",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "バスに乗る",
+    "reading": "バスにのる",
+    "meaning": "to board the bus",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "バスを降りる",
+    "reading": "バスをおりる",
+    "meaning": "to get off the bus",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "バスを待つ",
+    "reading": "バスをまつ",
+    "meaning": "to wait for the bus",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "メールを書く",
+    "reading": "メールをかく",
+    "meaning": "to write an email",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "work",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "もう一度お願いします",
+    "reading": "もういちどおねがいします",
+    "meaning": "could you say that again, please",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "映画を見る",
+    "reading": "えいがをみる",
+    "meaning": "to look at a film",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "音楽を聞く",
+    "reading": "おんがくをきく",
+    "meaning": "to ask about / to listen to music",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "楽しかったです",
+    "reading": "たのしかったです",
+    "meaning": "I had a good time",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "休みを取る",
+    "reading": "やすみをとる",
+    "meaning": "to take time off",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "仕事を始める",
+    "reading": "しごとをはじめる",
+    "meaning": "to start work",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "時間をかける",
+    "reading": "じかんをかける",
+    "meaning": "to make (a call) / to spend time",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "時間を取る",
+    "reading": "じかんをとる",
+    "meaning": "to take time",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "写真を見る",
+    "reading": "しゃしんをみる",
+    "meaning": "to look at a photo",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "宿題を出す",
+    "reading": "しゅくだいをだす",
+    "meaning": "to submit / to put out the homework",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "宿題を忘れる",
+    "reading": "しゅくだいをわすれる",
+    "meaning": "to forget the homework",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "切符を取る",
+    "reading": "きっぷをとる",
+    "meaning": "to take a ticket",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "切符を買う",
+    "reading": "きっぷをかう",
+    "meaning": "to buy a ticket",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "電車に乗る",
+    "reading": "でんしゃにのる",
+    "meaning": "to board the train",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "電車を降りる",
+    "reading": "でんしゃをおりる",
+    "meaning": "to get off the train",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "電話をかける",
+    "reading": "でんわをかける",
+    "meaning": "to make (a call) / to spend a phone call",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "電話を取る",
+    "reading": "でんわをとる",
+    "meaning": "to take a phone call",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "電話を切る",
+    "reading": "でんわをきる",
+    "meaning": "to cut / to hang up a phone call",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "電話を待つ",
+    "reading": "でんわをまつ",
+    "meaning": "to wait for a phone call",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "道を聞く",
+    "reading": "みちをきく",
+    "meaning": "to ask about / to listen to the way",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "飛行機に乗る",
+    "reading": "ひこうきにのる",
+    "meaning": "to board the plane",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "飛行機を降りる",
+    "reading": "ひこうきをおりる",
+    "meaning": "to get off the plane",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "部屋を借りる",
+    "reading": "へやをかりる",
+    "meaning": "to borrow the room",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "部屋を掃除する",
+    "reading": "へやをそうじする",
+    "meaning": "to clean the room",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "服を洗う",
+    "reading": "ふくをあらう",
+    "meaning": "to wash clothes",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "服を買う",
+    "reading": "ふくをかう",
+    "meaning": "to buy clothes",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "本を借りる",
+    "reading": "ほんをかりる",
+    "meaning": "to borrow a book",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "本を読む",
+    "reading": "ほんをよむ",
+    "meaning": "to read a book",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "薬をもらう",
+    "reading": "くすりをもらう",
+    "meaning": "to receive medicine",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "薬を飲む",
+    "reading": "くすりをのむ",
+    "meaning": "to drink / to take medicine",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "友達を作る",
+    "reading": "ともだちをつくる",
+    "meaning": "to make a friend",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "友達を待つ",
+    "reading": "ともだちをまつ",
+    "meaning": "to wait for a friend",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "話を聞く",
+    "reading": "はなしをきく",
+    "meaning": "to ask about / to listen to the story / the talk",
+    "jlpt_level": "N5",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "おすすめは何ですか",
+    "reading": "おすすめはなんですか",
+    "meaning": "what do you recommend?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "お会計をお願いします",
+    "reading": "おかいけいをおねがいします",
+    "meaning": "the bill, please",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "お金が足りる",
+    "reading": "おかねがたりる",
+    "meaning": "to be sufficient money",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お金を払う",
+    "reading": "おかねをはらう",
+    "meaning": "to pay money",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お邪魔します",
+    "reading": "おじゃまします",
+    "meaning": "excuse me for intruding (entering a home)",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "お手伝いしましょうか",
+    "reading": "おてつだいしましょうか",
+    "meaning": "shall I help you?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "お酒をやめる",
+    "reading": "おさけをやめる",
+    "meaning": "to quit alcohol",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "phrase": "お大事に",
+    "reading": "おだいじに",
+    "meaning": "get well soon",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "お疲れさまでした",
+    "reading": "おつかれさまでした",
+    "meaning": "thank you for your hard work",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "カードで払えますか",
+    "reading": "カードではらえますか",
+    "meaning": "can I pay by card?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "ゴミを出す",
+    "reading": "ゴミをだす",
+    "meaning": "to submit / to put out the rubbish",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "そろそろ行きましょうか",
+    "reading": "そろそろいきましょうか",
+    "meaning": "shall we get going?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "できれば",
+    "reading": "できれば",
+    "meaning": "if possible",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "どちらでもいいです",
+    "reading": "どちらでもいいです",
+    "meaning": "either is fine with me",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "opinions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ニュースを見る",
+    "reading": "ニュースをみる",
+    "meaning": "to look at the news",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "ニュースを読む",
+    "reading": "ニュースをよむ",
+    "meaning": "to read the news",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パソコンをつける",
+    "reading": "パソコンをつける",
+    "meaning": "to turn on / to attach the computer",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パソコンを使う",
+    "reading": "パソコンをつかう",
+    "meaning": "to use the computer",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パソコンを消す",
+    "reading": "パソコンをけす",
+    "meaning": "to turn off / to erase the computer",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パソコンを直す",
+    "reading": "パソコンをなおす",
+    "meaning": "to fix the computer",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "びっくりしました",
+    "reading": "びっくりしました",
+    "meaning": "I was surprised",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "ホテルに泊まる",
+    "reading": "ホテルにとまる",
+    "meaning": "to stay at a hotel",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "ホテルを探す",
+    "reading": "ホテルをさがす",
+    "meaning": "to look for a hotel",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "メールを送る",
+    "reading": "メールをおくる",
+    "meaning": "to send an email",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "メールを返す",
+    "reading": "メールをかえす",
+    "meaning": "to return an email",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "ゆっくり話していただけますか",
+    "reading": "ゆっくりはなしていただけますか",
+    "meaning": "could you speak more slowly?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "意見を言う",
+    "reading": "いけんをいう",
+    "meaning": "to say an opinion",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "意見を聞く",
+    "reading": "いけんをきく",
+    "meaning": "to ask about / to listen to an opinion",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "運動をやめる",
+    "reading": "うんどうをやめる",
+    "meaning": "to quit exercise",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "運動を始める",
+    "reading": "うんどうをはじめる",
+    "meaning": "to start exercise",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "運動を続ける",
+    "reading": "うんどうをつづける",
+    "meaning": "to continue exercise",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "映画を選ぶ",
+    "reading": "えいがをえらぶ",
+    "meaning": "to choose a film",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "何時に着きますか",
+    "reading": "なんじにつきますか",
+    "meaning": "what time does it arrive?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "家族を紹介する",
+    "reading": "かぞくをしょうかいする",
+    "meaning": "to introduce one's family",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "荷物を持つ",
+    "reading": "にもつをもつ",
+    "meaning": "to hold / to have luggage",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "荷物を送る",
+    "reading": "にもつをおくる",
+    "meaning": "to send luggage",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "会話を始める",
+    "reading": "かいわをはじめる",
+    "meaning": "to start a conversation",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "会話を続ける",
+    "reading": "かいわをつづける",
+    "meaning": "to continue a conversation",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "楽しみにしています",
+    "reading": "たのしみにしています",
+    "meaning": "I am looking forward to it",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "漢字を覚える",
+    "reading": "かんじをおぼえる",
+    "meaning": "to memorise kanji",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "漢字を書く",
+    "reading": "かんじをかく",
+    "meaning": "to write kanji",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "漢字を調べる",
+    "reading": "かんじをしらべる",
+    "meaning": "to look into kanji",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "漢字を読む",
+    "reading": "かんじをよむ",
+    "meaning": "to read kanji",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "気をつけてください",
+    "reading": "きをつけてください",
+    "meaning": "please take care",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "health"
+    ]
+  },
+  {
+    "phrase": "気持ちが変わる",
+    "reading": "きもちがかわる",
+    "meaning": "to change one's feelings",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "季節が変わる",
+    "reading": "きせつがかわる",
+    "meaning": "to change the season",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "久しぶりですね",
+    "reading": "ひさしぶりですね",
+    "meaning": "long time no see",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "言葉を覚える",
+    "reading": "ことばをおぼえる",
+    "meaning": "to memorise words",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "言葉を選ぶ",
+    "reading": "ことばをえらぶ",
+    "meaning": "to choose words",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "言葉を調べる",
+    "reading": "ことばをしらべる",
+    "meaning": "to look into words",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "言葉を忘れる",
+    "reading": "ことばをわすれる",
+    "meaning": "to forget words",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "皿を洗う",
+    "reading": "さらをあらう",
+    "meaning": "to wash the dishes",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "food"
+    ]
+  },
+  {
+    "phrase": "仕事をやめる",
+    "reading": "しごとをやめる",
+    "meaning": "to quit work",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "仕事を続ける",
+    "reading": "しごとをつづける",
+    "meaning": "to continue work",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "仕事を探す",
+    "reading": "しごとをさがす",
+    "meaning": "to look for work",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "試験を受ける",
+    "reading": "しけんをうける",
+    "meaning": "to take / to receive the exam",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "試験を準備する",
+    "reading": "しけんをじゅんびする",
+    "meaning": "to prepare the exam",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "時間が足りる",
+    "reading": "じかんがたりる",
+    "meaning": "to be sufficient time",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "質問に答える",
+    "reading": "しつもんにこたえる",
+    "meaning": "to answer a question",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "質問を受ける",
+    "reading": "しつもんをうける",
+    "meaning": "to take / to receive a question",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "質問を準備する",
+    "reading": "しつもんをじゅんびする",
+    "meaning": "to prepare a question",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "写真を撮ってもいいですか",
+    "reading": "しゃしんをとってもいいですか",
+    "meaning": "may I take a photo?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "写真を送る",
+    "reading": "しゃしんをおくる",
+    "meaning": "to send a photo",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "授業を始める",
+    "reading": "じゅぎょうをはじめる",
+    "meaning": "to start the class",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "授業を受ける",
+    "reading": "じゅぎょうをうける",
+    "meaning": "to take / to receive the class",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "食事を作る",
+    "reading": "しょくじをつくる",
+    "meaning": "to make a meal",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "phrase": "食事を取る",
+    "reading": "しょくじをとる",
+    "meaning": "to take a meal",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "phrase": "席を取る",
+    "reading": "せきをとる",
+    "meaning": "to take a seat",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "席を選ぶ",
+    "reading": "せきをえらぶ",
+    "meaning": "to choose a seat",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "切符を見つける",
+    "reading": "きっぷをみつける",
+    "meaning": "to find a ticket",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "値段が下がる",
+    "reading": "ねだんがさがる",
+    "meaning": "to fall the price",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "値段が上がる",
+    "reading": "ねだんがあがる",
+    "meaning": "to rise the price",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "地図を見る",
+    "reading": "ちずをみる",
+    "meaning": "to look at a map",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "地図を調べる",
+    "reading": "ちずをしらべる",
+    "meaning": "to look into a map",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "調子はどうですか",
+    "reading": "ちょうしはどうですか",
+    "meaning": "how are you doing?",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "天気が変わる",
+    "reading": "てんきがかわる",
+    "meaning": "to change the weather",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "天気を調べる",
+    "reading": "てんきをしらべる",
+    "meaning": "to look into the weather",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "電車に遅れる",
+    "reading": "でんしゃにおくれる",
+    "meaning": "to be late for the train",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "道に迷いました",
+    "reading": "みちにまよいました",
+    "meaning": "I have lost my way",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "道を間違える",
+    "reading": "みちをまちがえる",
+    "meaning": "to mistake the way",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "道を探す",
+    "reading": "みちをさがす",
+    "meaning": "to look for the way",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "熱が下がる",
+    "reading": "ねつがさがる",
+    "meaning": "to fall a fever",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "熱が出る",
+    "reading": "ねつがでる",
+    "meaning": "to come out / to appear a fever",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "買い物を頼む",
+    "reading": "かいものをたのむ",
+    "meaning": "to order / to request shopping",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "病院を探す",
+    "reading": "びょういんをさがす",
+    "meaning": "to look for the hospital",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "風邪をひく",
+    "reading": "かぜをひく",
+    "meaning": "to catch (a cold) a cold",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "服を選ぶ",
+    "reading": "ふくをえらぶ",
+    "meaning": "to choose clothes",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "弁当を作る",
+    "reading": "べんとうをつくる",
+    "meaning": "to make a lunch box",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "弁当を買う",
+    "reading": "べんとうをかう",
+    "meaning": "to buy a lunch box",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "本を探す",
+    "reading": "ほんをさがす",
+    "meaning": "to look for a book",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "本を返す",
+    "reading": "ほんをかえす",
+    "meaning": "to return a book",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "夢を見る",
+    "reading": "ゆめをみる",
+    "meaning": "to look at a dream",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "夢を持つ",
+    "reading": "ゆめをもつ",
+    "meaning": "to hold / to have a dream",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "約束を忘れる",
+    "reading": "やくそくをわすれる",
+    "meaning": "to forget a promise",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "予定を決める",
+    "reading": "よていをきめる",
+    "meaning": "to decide on a plan",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "予定を立てる",
+    "reading": "よていをたてる",
+    "meaning": "to draw up a plan",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "理由を説明する",
+    "reading": "りゆうをせつめいする",
+    "meaning": "to explain a reason",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "理由を聞く",
+    "reading": "りゆうをきく",
+    "meaning": "to ask about / to listen to a reason",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "料理を作る",
+    "reading": "りょうりをつくる",
+    "meaning": "to make cooking / a dish",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food"
+    ]
+  },
+  {
+    "phrase": "料理を頼む",
+    "reading": "りょうりをたのむ",
+    "meaning": "to order / to request cooking / a dish",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "food"
+    ]
+  },
+  {
+    "phrase": "例えば",
+    "reading": "たとえば",
+    "meaning": "for example",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "話を続ける",
+    "reading": "はなしをつづける",
+    "meaning": "to continue the story / the talk",
+    "jlpt_level": "N4",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "アプリを使う",
+    "reading": "アプリをつかう",
+    "meaning": "to use the app",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "うまく言えないのですが",
+    "reading": "うまくいえないのですが",
+    "meaning": "I can't put it well, but …",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "おかげさまで",
+    "reading": "おかげさまで",
+    "meaning": "thanks to you (set reply)",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お金を貯める",
+    "reading": "おかねをためる",
+    "meaning": "to save up money",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お時間をいただく",
+    "reading": "おじかんをいただく",
+    "meaning": "to receive (humble) your time",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "お先に失礼します",
+    "reading": "おさきにしつれいします",
+    "meaning": "excuse me for leaving before you",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "がっかりしました",
+    "reading": "がっかりしました",
+    "meaning": "I was disappointed",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "ゴミを片付ける",
+    "reading": "ゴミをかたづける",
+    "meaning": "to tidy up the rubbish",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ご意見をいただく",
+    "reading": "ごいけんをいただく",
+    "meaning": "to receive (humble) your opinion",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "ご飯を残す",
+    "reading": "ごはんをのこす",
+    "meaning": "to leave behind a meal",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ご連絡をいただく",
+    "reading": "ごれんらくをいただく",
+    "meaning": "to receive (humble) contact",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ご連絡を差し上げる",
+    "reading": "ごれんらくをさしあげる",
+    "meaning": "to give (humble) contact",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ご連絡を待つ",
+    "reading": "ごれんらくをまつ",
+    "meaning": "to wait for contact",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "サイズを確認する",
+    "reading": "サイズをかくにんする",
+    "meaning": "to confirm the size",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "サイズを変更する",
+    "reading": "サイズをへんこうする",
+    "meaning": "to change the size",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "スマホを使う",
+    "reading": "スマホをつかう",
+    "meaning": "to use the smartphone",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "スマホを充電する",
+    "reading": "スマホをじゅうでんする",
+    "meaning": "to charge the smartphone",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "スマホを直す",
+    "reading": "スマホをなおす",
+    "meaning": "to fix the smartphone",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "そういえば",
+    "reading": "そういえば",
+    "meaning": "come to think of it",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "その結果",
+    "reading": "そのけっか",
+    "meaning": "as a result",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "チェックインをお願いします",
+    "reading": "チェックインをおねがいします",
+    "meaning": "I would like to check in",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "データを確認する",
+    "reading": "データをかくにんする",
+    "meaning": "to confirm the data",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "データを送る",
+    "reading": "データをおくる",
+    "meaning": "to send the data",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ところで",
+    "reading": "ところで",
+    "meaning": "by the way (changing topic)",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "とりあえず",
+    "reading": "とりあえず",
+    "meaning": "for the time being",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "なるほど",
+    "reading": "なるほど",
+    "meaning": "I see / that makes sense",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "ニュースを確認する",
+    "reading": "ニュースをかくにんする",
+    "meaning": "to confirm the news",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "ネットを使う",
+    "reading": "ネットをつかう",
+    "meaning": "to use the internet",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "バスに乗り換える",
+    "reading": "バスにのりかえる",
+    "meaning": "to transfer to the bus",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "パスワードを変更する",
+    "reading": "パスワードをへんこうする",
+    "meaning": "to change the password",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パスワードを忘れる",
+    "reading": "パスワードをわすれる",
+    "meaning": "to forget the password",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "ファイルを送る",
+    "reading": "ファイルをおくる",
+    "meaning": "to send the file",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ファイルを探す",
+    "reading": "ファイルをさがす",
+    "meaning": "to look for the file",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ほっとしました",
+    "reading": "ほっとしました",
+    "meaning": "I was relieved",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "ホテルを予約する",
+    "reading": "ホテルをよやくする",
+    "meaning": "to reserve a hotel",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "メールを確認する",
+    "reading": "メールをかくにんする",
+    "meaning": "to confirm an email",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "よろしくお願いいたします",
+    "reading": "よろしくおねがいいたします",
+    "meaning": "thank you in advance / I look forward to working with you",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "レシートをもらう",
+    "reading": "レシートをもらう",
+    "meaning": "to receive the receipt",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "レシートを取る",
+    "reading": "レシートをとる",
+    "meaning": "to take the receipt",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "映画を楽しむ",
+    "reading": "えいがをたのしむ",
+    "meaning": "to enjoy a film",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "音楽を楽しむ",
+    "reading": "おんがくをたのしむ",
+    "meaning": "to enjoy music",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "何と言えばいいでしょうか",
+    "reading": "なんといえばいいでしょうか",
+    "meaning": "how should I put it?",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "家族を守る",
+    "reading": "かぞくをまもる",
+    "meaning": "to keep / to protect one's family",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "家族を訪ねる",
+    "reading": "かぞくをたずねる",
+    "meaning": "to visit one's family",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "家賃が下がる",
+    "reading": "やちんがさがる",
+    "meaning": "to fall the rent",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "家賃が上がる",
+    "reading": "やちんがあがる",
+    "meaning": "to rise the rent",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "家賃を払う",
+    "reading": "やちんをはらう",
+    "meaning": "to pay the rent",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "荷物を預ける",
+    "reading": "にもつをあずける",
+    "meaning": "to check in / to deposit luggage",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "会議を始める",
+    "reading": "かいぎをはじめる",
+    "meaning": "to start the meeting",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "会議を終える",
+    "reading": "かいぎをおえる",
+    "meaning": "to finish the meeting",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "会議を進める",
+    "reading": "かいぎをすすめる",
+    "meaning": "to move forward with the meeting",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "会話を楽しむ",
+    "reading": "かいわをたのしむ",
+    "meaning": "to enjoy a conversation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "確かにそうですね",
+    "reading": "たしかにそうですね",
+    "meaning": "that is certainly true",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "気にしないでください",
+    "reading": "きにしないでください",
+    "meaning": "please don't worry about it",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "気持ちを伝える",
+    "reading": "きもちをつたえる",
+    "meaning": "to convey one's feelings",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "季節を楽しむ",
+    "reading": "きせつをたのしむ",
+    "meaning": "to enjoy the season",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "給料が下がる",
+    "reading": "きゅうりょうがさがる",
+    "meaning": "to fall a salary",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "給料が上がる",
+    "reading": "きゅうりょうがあがる",
+    "meaning": "to rise a salary",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "給料を払う",
+    "reading": "きゅうりょうをはらう",
+    "meaning": "to pay a salary",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "興味を感じる",
+    "reading": "きょうみをかんじる",
+    "meaning": "to feel interest",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "興味を持つ",
+    "reading": "きょうみをもつ",
+    "meaning": "to hold / to have interest",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "緊張しています",
+    "reading": "きんちょうしています",
+    "meaning": "I am nervous",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "経験を経験する",
+    "reading": "けいけんをけいけんする",
+    "meaning": "to experience experience",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "経験を伝える",
+    "reading": "けいけんをつたえる",
+    "meaning": "to convey experience",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "計画を進める",
+    "reading": "けいかくをすすめる",
+    "meaning": "to move forward with a plan",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "計画を変更する",
+    "reading": "けいかくをへんこうする",
+    "meaning": "to change a plan",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "計画を立てる",
+    "reading": "けいかくをたてる",
+    "meaning": "to draw up a plan",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "健康を守る",
+    "reading": "けんこうをまもる",
+    "meaning": "to keep / to protect one's health",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "皿を片付ける",
+    "reading": "さらをかたづける",
+    "meaning": "to tidy up the dishes",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "food"
+    ]
+  },
+  {
+    "phrase": "残念ながら",
+    "reading": "ざんねんながら",
+    "meaning": "unfortunately",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "仕事を進める",
+    "reading": "しごとをすすめる",
+    "meaning": "to move forward with work",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "私の考えでは",
+    "reading": "わたしのかんがえでは",
+    "meaning": "in my view",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "試着してもいいですか",
+    "reading": "しちゃくしてもいいですか",
+    "meaning": "may I try this on?",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "持ち帰りでお願いします",
+    "reading": "もちかえりでおねがいします",
+    "meaning": "to take away, please",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "時間を守る",
+    "reading": "じかんをまもる",
+    "meaning": "to keep / to protect time",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "自由を守る",
+    "reading": "じゆうをまもる",
+    "meaning": "to keep / to protect freedom",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "習慣が変わる",
+    "reading": "しゅうかんがかわる",
+    "meaning": "to change a habit",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "health"
+    ]
+  },
+  {
+    "phrase": "習慣を続ける",
+    "reading": "しゅうかんをつづける",
+    "meaning": "to continue a habit",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "health"
+    ]
+  },
+  {
+    "phrase": "充電が切れそうです",
+    "reading": "じゅうでんがきれそうです",
+    "meaning": "my battery is about to die",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "宿題を終える",
+    "reading": "しゅくだいをおえる",
+    "meaning": "to finish the homework",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "助かりました",
+    "reading": "たすかりました",
+    "meaning": "that was a big help",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "乗り換えはどこですか",
+    "reading": "のりかえはどこですか",
+    "meaning": "where do I change trains?",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "情報を確認する",
+    "reading": "じょうほうをかくにんする",
+    "meaning": "to confirm information",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "情報を集める",
+    "reading": "じょうほうをあつめる",
+    "meaning": "to gather information",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "情報を伝える",
+    "reading": "じょうほうをつたえる",
+    "meaning": "to convey information",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "食事を楽しむ",
+    "reading": "しょくじをたのしむ",
+    "meaning": "to enjoy a meal",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "phrase": "席を予約する",
+    "reading": "せきをよやくする",
+    "meaning": "to reserve a seat",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "切符を予約する",
+    "reading": "きっぷをよやくする",
+    "meaning": "to reserve a ticket",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "洗濯がたまる",
+    "reading": "せんたくがたまる",
+    "meaning": "to build up the laundry",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "値段を確認する",
+    "reading": "ねだんをかくにんする",
+    "meaning": "to confirm the price",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "値段を比べる",
+    "reading": "ねだんをくらべる",
+    "meaning": "to compare the price",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "電車に間に合う",
+    "reading": "でんしゃにまにあう",
+    "meaning": "to be in time for the train",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "電車に乗り換える",
+    "reading": "でんしゃにのりかえる",
+    "meaning": "to transfer to the train",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "買い物を楽しむ",
+    "reading": "かいものをたのしむ",
+    "meaning": "to enjoy shopping",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "発音に慣れる",
+    "reading": "はつおんになれる",
+    "meaning": "to get used to pronunciation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "発音を確認する",
+    "reading": "はつおんをかくにんする",
+    "meaning": "to confirm pronunciation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "発音を直す",
+    "reading": "はつおんをなおす",
+    "meaning": "to fix pronunciation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "飛行機を予約する",
+    "reading": "ひこうきをよやくする",
+    "meaning": "to reserve the plane",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "病院を予約する",
+    "reading": "びょういんをよやくする",
+    "meaning": "to reserve the hospital",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "部屋を片付ける",
+    "reading": "へやをかたづける",
+    "meaning": "to tidy up the room",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "部屋を予約する",
+    "reading": "へやをよやくする",
+    "meaning": "to reserve the room",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "風邪が治る",
+    "reading": "かぜがなおる",
+    "meaning": "to heal a cold",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "文章を書く",
+    "reading": "ぶんしょうをかく",
+    "meaning": "to write a piece of writing",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "文章を直す",
+    "reading": "ぶんしょうをなおす",
+    "meaning": "to fix a piece of writing",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "文章を読む",
+    "reading": "ぶんしょうをよむ",
+    "meaning": "to read a piece of writing",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "別々でお願いします",
+    "reading": "べつべつでおねがいします",
+    "meaning": "separate bills, please",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "返事をもらう",
+    "reading": "へんじをもらう",
+    "meaning": "to receive a reply",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "返事を書く",
+    "reading": "へんじをかく",
+    "meaning": "to write a reply",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "返事を送る",
+    "reading": "へんじをおくる",
+    "meaning": "to send a reply",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "返事を待つ",
+    "reading": "へんじをまつ",
+    "meaning": "to wait for a reply",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "無理しないでください",
+    "reading": "むりしないでください",
+    "meaning": "don't overdo it",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health",
+      "work"
+    ]
+  },
+  {
+    "phrase": "迷っています",
+    "reading": "まよっています",
+    "meaning": "I can't make up my mind",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "問題が起こる",
+    "reading": "もんだいがおこる",
+    "meaning": "to occur a problem",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "約束を守る",
+    "reading": "やくそくをまもる",
+    "meaning": "to keep / to protect a promise",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "約束を破る",
+    "reading": "やくそくをやぶる",
+    "meaning": "to break a promise",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "友達を訪ねる",
+    "reading": "ともだちをたずねる",
+    "meaning": "to visit a friend",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "予定を確認する",
+    "reading": "よていをかくにんする",
+    "meaning": "to confirm a plan",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "予定を取り消す",
+    "reading": "よていをとりけす",
+    "meaning": "to cancel a plan",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "予定を変更する",
+    "reading": "よていをへんこうする",
+    "meaning": "to change a plan",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "予約を確認する",
+    "reading": "よやくをかくにんする",
+    "meaning": "to confirm a reservation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health",
+      "travel",
+      "food"
+    ]
+  },
+  {
+    "phrase": "予約を取り消す",
+    "reading": "よやくをとりけす",
+    "meaning": "to cancel a reservation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health",
+      "travel",
+      "food"
+    ]
+  },
+  {
+    "phrase": "予約を取る",
+    "reading": "よやくをとる",
+    "meaning": "to take a reservation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health",
+      "travel",
+      "food"
+    ]
+  },
+  {
+    "phrase": "予約を変更する",
+    "reading": "よやくをへんこうする",
+    "meaning": "to change a reservation",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "health",
+      "travel",
+      "food"
+    ]
+  },
+  {
+    "phrase": "旅行を楽しむ",
+    "reading": "りょこうをたのしむ",
+    "meaning": "to enjoy a trip",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "旅行を計画する",
+    "reading": "りょこうをけいかくする",
+    "meaning": "to plan a trip",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "料理を楽しむ",
+    "reading": "りょうりをたのしむ",
+    "meaning": "to enjoy cooking / a dish",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food"
+    ]
+  },
+  {
+    "phrase": "料理を注文する",
+    "reading": "りょうりをちゅうもんする",
+    "meaning": "to order cooking / a dish",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "food"
+    ]
+  },
+  {
+    "phrase": "話を伝える",
+    "reading": "はなしをつたえる",
+    "meaning": "to convey the story / the talk",
+    "jlpt_level": "N3",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "アプリを更新する",
+    "reading": "アプリをこうしんする",
+    "meaning": "to update the app",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "おっしゃる通りです",
+    "reading": "おっしゃるとおりです",
+    "meaning": "you are quite right",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "お金を節約する",
+    "reading": "おかねをせつやくする",
+    "meaning": "to economise on money",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "お世話になっております",
+    "reading": "おせわになっております",
+    "meaning": "thank you for your continued support (standard business greeting)",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "かしこまりました",
+    "reading": "かしこまりました",
+    "meaning": "certainly (humble acknowledgement)",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ご案内をいただく",
+    "reading": "ごあんないをいただく",
+    "meaning": "to receive (humble) guidance",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "ご案内を差し上げる",
+    "reading": "ごあんないをさしあげる",
+    "meaning": "to give (humble) guidance",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "ご意見を求める",
+    "reading": "ごいけんをもとめる",
+    "meaning": "to seek your opinion",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "ご意見を伺う",
+    "reading": "ごいけんをうかがう",
+    "meaning": "to ask about / to visit (humble) your opinion",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "ご確認いただけますでしょうか",
+    "reading": "ごかくにんいただけますでしょうか",
+    "meaning": "could you kindly confirm?",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ご迷惑をおかけしました",
+    "reading": "ごめいわくをおかけしました",
+    "meaning": "I apologise for the inconvenience caused",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "サイズを試す",
+    "reading": "サイズをためす",
+    "meaning": "to try out the size",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "サイズを測る",
+    "reading": "サイズをはかる",
+    "meaning": "to measure the size",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "システムを更新する",
+    "reading": "システムをこうしんする",
+    "meaning": "to update the system",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "システムを直す",
+    "reading": "システムをなおす",
+    "meaning": "to fix the system",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ストレスがたまる",
+    "reading": "ストレスがたまる",
+    "meaning": "to build up stress",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "ストレスが減る",
+    "reading": "ストレスがへる",
+    "meaning": "to decrease stress",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "ストレスを感じる",
+    "reading": "ストレスをかんじる",
+    "meaning": "to feel stress",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "ストレスを抑える",
+    "reading": "ストレスをおさえる",
+    "meaning": "to hold back stress",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health",
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "せっかくですが",
+    "reading": "せっかくですが",
+    "meaning": "I appreciate the offer, but …",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "そうとは限りません",
+    "reading": "そうとはかぎりません",
+    "meaning": "that is not necessarily the case",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "それに対して",
+    "reading": "それにたいして",
+    "meaning": "in contrast to that",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "ちなみに",
+    "reading": "ちなみに",
+    "meaning": "incidentally, by the way",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "データを入力する",
+    "reading": "データをにゅうりょくする",
+    "meaning": "to enter (data) the data",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "データを保存する",
+    "reading": "データをほぞんする",
+    "meaning": "to save the data",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ネットを検索する",
+    "reading": "ネットをけんさくする",
+    "meaning": "to search for the internet",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パスワードを入力する",
+    "reading": "パスワードをにゅうりょくする",
+    "meaning": "to enter (data) the password",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "パソコンを更新する",
+    "reading": "パソコンをこうしんする",
+    "meaning": "to update the computer",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "バックアップを取ります",
+    "reading": "バックアップをとります",
+    "meaning": "I will take a backup",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ファイルを保存する",
+    "reading": "ファイルをほぞんする",
+    "meaning": "to save the file",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "レシートを保存する",
+    "reading": "レシートをほぞんする",
+    "meaning": "to save the receipt",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "意見を求める",
+    "reading": "いけんをもとめる",
+    "meaning": "to seek an opinion",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "意見を認める",
+    "reading": "いけんをみとめる",
+    "meaning": "to acknowledge an opinion",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "一方で",
+    "reading": "いっぽうで",
+    "meaning": "on the other hand",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "影響を受ける",
+    "reading": "えいきょうをうける",
+    "meaning": "to take / to receive influence",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "影響を認める",
+    "reading": "えいきょうをみとめる",
+    "meaning": "to acknowledge influence",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "影響を与える",
+    "reading": "えいきょうをあたえる",
+    "meaning": "to give / to exert influence",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "荷物を整理する",
+    "reading": "にもつをせいりする",
+    "meaning": "to sort out luggage",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "課題を解決する",
+    "reading": "かだいをかいけつする",
+    "meaning": "to resolve an issue / an assignment",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "課題を出す",
+    "reading": "かだいをだす",
+    "meaning": "to submit / to put out an issue / an assignment",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "画面が固まりました",
+    "reading": "がめんがかたまりました",
+    "meaning": "the screen has frozen",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "会議に出席する",
+    "reading": "かいぎにしゅっせきする",
+    "meaning": "to attend the meeting",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "会議を延期する",
+    "reading": "かいぎをえんきする",
+    "meaning": "to postpone the meeting",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "会議を欠席する",
+    "reading": "かいぎをけっせきする",
+    "meaning": "to be absent from the meeting",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "会計を払う",
+    "reading": "かいけいをはらう",
+    "meaning": "to pay the bill",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "会計を頼む",
+    "reading": "かいけいをたのむ",
+    "meaning": "to order / to request the bill",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "感想を聞く",
+    "reading": "かんそうをきく",
+    "meaning": "to ask about / to listen to one's impressions",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "環境が変わる",
+    "reading": "かんきょうがかわる",
+    "meaning": "to change the environment",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "環境を守る",
+    "reading": "かんきょうをまもる",
+    "meaning": "to keep / to protect the environment",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "観光を楽しむ",
+    "reading": "かんこうをたのしむ",
+    "meaning": "to enjoy sightseeing",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "観光を計画する",
+    "reading": "かんこうをけいかくする",
+    "meaning": "to plan sightseeing",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "期待を感じる",
+    "reading": "きたいをかんじる",
+    "meaning": "to feel expectations",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "期待を持つ",
+    "reading": "きたいをもつ",
+    "meaning": "to hold / to have expectations",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "気持ちを表す",
+    "reading": "きもちをあらわす",
+    "meaning": "to express one's feelings",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "気持ちを抑える",
+    "reading": "きもちをおさえる",
+    "meaning": "to hold back one's feelings",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "規則を守る",
+    "reading": "きそくをまもる",
+    "meaning": "to keep / to protect the rules",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "規則を破る",
+    "reading": "きそくをやぶる",
+    "meaning": "to break the rules",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "規則を変更する",
+    "reading": "きそくをへんこうする",
+    "meaning": "to change the rules",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "休みを申し込む",
+    "reading": "やすみをもうしこむ",
+    "meaning": "to apply for time off",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "許可を求める",
+    "reading": "きょかをもとめる",
+    "meaning": "to seek permission",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "許可を取る",
+    "reading": "きょかをとる",
+    "meaning": "to take permission",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "許可を与える",
+    "reading": "きょかをあたえる",
+    "meaning": "to give / to exert permission",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "興味を失う",
+    "reading": "きょうみをうしなう",
+    "meaning": "to lose interest",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "緊張を感じる",
+    "reading": "きんちょうをかんじる",
+    "meaning": "to feel nervousness",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "緊張を抑える",
+    "reading": "きんちょうをおさえる",
+    "meaning": "to hold back nervousness",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "具体的に言うと",
+    "reading": "ぐたいてきにいうと",
+    "meaning": "to be specific",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "計画を中止する",
+    "reading": "けいかくをちゅうしする",
+    "meaning": "to call off a plan",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "結論から言うと",
+    "reading": "けつろんからいうと",
+    "meaning": "to get straight to the point",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "言い換えれば",
+    "reading": "いいかえれば",
+    "meaning": "in other words",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "個人的には",
+    "reading": "こじんてきには",
+    "meaning": "personally speaking",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "再起動してみてください",
+    "reading": "さいきどうしてみてください",
+    "meaning": "please try restarting it",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "在庫はありますか",
+    "reading": "ざいこはありますか",
+    "meaning": "do you have this in stock?",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "work"
+    ]
+  },
+  {
+    "phrase": "在宅で働いています",
+    "reading": "ざいたくではたらいています",
+    "meaning": "I work from home",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "残業が減る",
+    "reading": "ざんぎょうがへる",
+    "meaning": "to decrease overtime",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "残業が増える",
+    "reading": "ざんぎょうがふえる",
+    "meaning": "to increase overtime",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "残業を続ける",
+    "reading": "ざんぎょうをつづける",
+    "meaning": "to continue overtime",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "残業を避ける",
+    "reading": "ざんぎょうをさける",
+    "meaning": "to avoid overtime",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "仕事を担当する",
+    "reading": "しごとをたんとうする",
+    "meaning": "to be in charge of work",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "試験を申し込む",
+    "reading": "しけんをもうしこむ",
+    "meaning": "to apply for the exam",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "資料を確認する",
+    "reading": "しりょうをかくにんする",
+    "meaning": "to confirm the materials",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "資料を作る",
+    "reading": "しりょうをつくる",
+    "meaning": "to make the materials",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "資料を整理する",
+    "reading": "しりょうをせいりする",
+    "meaning": "to sort out the materials",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "資料を送る",
+    "reading": "しりょうをおくる",
+    "meaning": "to send the materials",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "資料を保存する",
+    "reading": "しりょうをほぞんする",
+    "meaning": "to save the materials",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "時間を節約する",
+    "reading": "じかんをせつやくする",
+    "meaning": "to economise on time",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "時差ぼけです",
+    "reading": "じさぼけです",
+    "meaning": "I have jet lag",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "travel",
+      "health"
+    ]
+  },
+  {
+    "phrase": "自信を持つ",
+    "reading": "じしんをもつ",
+    "meaning": "to hold / to have confidence",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "自信を失う",
+    "reading": "じしんをうしなう",
+    "meaning": "to lose confidence",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions"
+    ]
+  },
+  {
+    "phrase": "自由を求める",
+    "reading": "じゆうをもとめる",
+    "meaning": "to seek freedom",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "失礼いたします",
+    "reading": "しつれいいたします",
+    "meaning": "excuse me (formal, on leaving)",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "写真を保存する",
+    "reading": "しゃしんをほぞんする",
+    "meaning": "to save a photo",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "daily_life",
+      "travel"
+    ]
+  },
+  {
+    "phrase": "手続きを確認する",
+    "reading": "てつづきをかくにんする",
+    "meaning": "to confirm the procedure",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "手続きを終える",
+    "reading": "てつづきをおえる",
+    "meaning": "to finish the procedure",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "手続きを進める",
+    "reading": "てつづきをすすめる",
+    "meaning": "to move forward with the procedure",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "授業を欠席する",
+    "reading": "じゅぎょうをけっせきする",
+    "meaning": "to be absent from the class",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "書類を確認する",
+    "reading": "しょるいをかくにんする",
+    "meaning": "to confirm the documents",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "書類を作る",
+    "reading": "しょるいをつくる",
+    "meaning": "to make the documents",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "書類を出す",
+    "reading": "しょるいをだす",
+    "meaning": "to submit / to put out the documents",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "書類を整理する",
+    "reading": "しょるいをせいりする",
+    "meaning": "to sort out the documents",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "書類を提出する",
+    "reading": "しょるいをていしゅつする",
+    "meaning": "to submit the documents",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "商品を紹介する",
+    "reading": "しょうひんをしょうかいする",
+    "meaning": "to introduce a product",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "work"
+    ]
+  },
+  {
+    "phrase": "商品を選ぶ",
+    "reading": "しょうひんをえらぶ",
+    "meaning": "to choose a product",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "work"
+    ]
+  },
+  {
+    "phrase": "商品を売る",
+    "reading": "しょうひんをうる",
+    "meaning": "to sell a product",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "work"
+    ]
+  },
+  {
+    "phrase": "商品を比べる",
+    "reading": "しょうひんをくらべる",
+    "meaning": "to compare a product",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "work"
+    ]
+  },
+  {
+    "phrase": "商品を返す",
+    "reading": "しょうひんをかえす",
+    "meaning": "to return a product",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "shopping",
+      "work"
+    ]
+  },
+  {
+    "phrase": "承知しました",
+    "reading": "しょうちしました",
+    "meaning": "understood (business)",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "情報を検索する",
+    "reading": "じょうほうをけんさくする",
+    "meaning": "to search for information",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "食欲がありません",
+    "reading": "しょくよくがありません",
+    "meaning": "I have no appetite",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health",
+      "food"
+    ]
+  },
+  {
+    "phrase": "寝不足が続いています",
+    "reading": "ねぶそくがつづいています",
+    "meaning": "I have been short on sleep",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "申し訳ございませんが",
+    "reading": "もうしわけございませんが",
+    "meaning": "I am terribly sorry, but …",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "責任を取る",
+    "reading": "せきにんをとる",
+    "meaning": "to take responsibility",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "責任を認める",
+    "reading": "せきにんをみとめる",
+    "meaning": "to acknowledge responsibility",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "設定を確認する",
+    "reading": "せっていをかくにんする",
+    "meaning": "to confirm the settings",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "設定を変更する",
+    "reading": "せっていをへんこうする",
+    "meaning": "to change the settings",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "設定を保存する",
+    "reading": "せっていをほぞんする",
+    "meaning": "to save the settings",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "体調を確認する",
+    "reading": "たいちょうをかくにんする",
+    "meaning": "to confirm one's physical condition",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "体調を崩す",
+    "reading": "たいちょうをくずす",
+    "meaning": "to upset (one's health) one's physical condition",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "提案を受ける",
+    "reading": "ていあんをうける",
+    "meaning": "to take / to receive a proposal",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "提案を出す",
+    "reading": "ていあんをだす",
+    "meaning": "to submit / to put out a proposal",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "提案を認める",
+    "reading": "ていあんをみとめる",
+    "meaning": "to acknowledge a proposal",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "締め切りに間に合いません",
+    "reading": "しめきりにまにあいません",
+    "meaning": "I won't make the deadline",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "熱を測る",
+    "reading": "ねつをはかる",
+    "meaning": "to measure a fever",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "念のため",
+    "reading": "ねんのため",
+    "meaning": "just to be safe",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "不安を感じる",
+    "reading": "ふあんをかんじる",
+    "meaning": "to feel anxiety",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "health"
+    ]
+  },
+  {
+    "phrase": "不安を伝える",
+    "reading": "ふあんをつたえる",
+    "meaning": "to convey anxiety",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "health"
+    ]
+  },
+  {
+    "phrase": "不安を抑える",
+    "reading": "ふあんをおさえる",
+    "meaning": "to hold back anxiety",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "emotions",
+      "health"
+    ]
+  },
+  {
+    "phrase": "面接を受ける",
+    "reading": "めんせつをうける",
+    "meaning": "to take / to receive an interview",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "面接を準備する",
+    "reading": "めんせつをじゅんびする",
+    "meaning": "to prepare an interview",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "面接を申し込む",
+    "reading": "めんせつをもうしこむ",
+    "meaning": "to apply for an interview",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "目標を決める",
+    "reading": "もくひょうをきめる",
+    "meaning": "to decide on a goal",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "目標を立てる",
+    "reading": "もくひょうをたてる",
+    "meaning": "to draw up a goal",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "問題を解決する",
+    "reading": "もんだいをかいけつする",
+    "meaning": "to resolve a problem",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "予算を延ばす",
+    "reading": "よさんをのばす",
+    "meaning": "to extend the budget",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "予算を確認する",
+    "reading": "よさんをかくにんする",
+    "meaning": "to confirm the budget",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "予算を決める",
+    "reading": "よさんをきめる",
+    "meaning": "to decide on the budget",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "予算を立てる",
+    "reading": "よさんをたてる",
+    "meaning": "to draw up the budget",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "work",
+      "shopping"
+    ]
+  },
+  {
+    "phrase": "予定を延期する",
+    "reading": "よていをえんきする",
+    "meaning": "to postpone a plan",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "daily_life",
+      "work"
+    ]
+  },
+  {
+    "phrase": "要するに",
+    "reading": "ようするに",
+    "meaning": "in short",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "旅行を申し込む",
+    "reading": "りょこうをもうしこむ",
+    "meaning": "to apply for a trip",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "travel"
+    ]
+  },
+  {
+    "phrase": "話は変わりますが",
+    "reading": "はなしはかわりますが",
+    "meaning": "to change the subject",
+    "jlpt_level": "N2",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "アプリを削除する",
+    "reading": "アプリをさくじょする",
+    "meaning": "to delete the app",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "アプリを導入する",
+    "reading": "アプリをどうにゅうする",
+    "meaning": "to introduce the app",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "お手数をおかけしますが",
+    "reading": "おてすうをおかけしますが",
+    "meaning": "sorry for the trouble, but …",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "お酒を控える",
+    "reading": "おさけをひかえる",
+    "meaning": "to refrain from alcohol",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "food",
+      "health"
+    ]
+  },
+  {
+    "phrase": "お忙しいところ恐縮ですが",
+    "reading": "おいそがしいところきょうしゅくですが",
+    "meaning": "sorry to trouble you when you are busy, but …",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "システムを導入する",
+    "reading": "システムをどうにゅうする",
+    "meaning": "to introduce the system",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "それはさておき",
+    "reading": "それはさておき",
+    "meaning": "putting that aside",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "データを共有する",
+    "reading": "データをきょうゆうする",
+    "meaning": "to share the data",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "データを削除する",
+    "reading": "データをさくじょする",
+    "meaning": "to delete the data",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "とはいえ",
+    "reading": "とはいえ",
+    "meaning": "that said / having said that",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "ネットに接続する",
+    "reading": "ネットにせつぞくする",
+    "meaning": "to connect to the internet",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "ファイルを共有する",
+    "reading": "ファイルをきょうゆうする",
+    "meaning": "to share the file",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "ファイルを削除する",
+    "reading": "ファイルをさくじょする",
+    "meaning": "to delete the file",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "メールを削除する",
+    "reading": "メールをさくじょする",
+    "meaning": "to delete an email",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "意見を述べる",
+    "reading": "いけんをのべる",
+    "meaning": "to state an opinion",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "一概には言えませんが",
+    "reading": "いちがいにはいえませんが",
+    "meaning": "you cannot say categorically, but …",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "課題を検討する",
+    "reading": "かだいをけんとうする",
+    "meaning": "to consider an issue / an assignment",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "課題を把握する",
+    "reading": "かだいをはあくする",
+    "meaning": "to grasp an issue / an assignment",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "感想を述べる",
+    "reading": "かんそうをのべる",
+    "meaning": "to state one's impressions",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "環境を整える",
+    "reading": "かんきょうをととのえる",
+    "meaning": "to get in order the environment",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions",
+      "technology"
+    ]
+  },
+  {
+    "phrase": "期待に応える",
+    "reading": "きたいにこたえる",
+    "meaning": "to live up to expectations",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "emotions",
+      "work"
+    ]
+  },
+  {
+    "phrase": "気が進みません",
+    "reading": "きがすすみません",
+    "meaning": "I am not keen on it",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "共有させていただきます",
+    "reading": "きょうゆうさせていただきます",
+    "meaning": "allow me to share this with you",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "恐れ入りますが",
+    "reading": "おそれいりますが",
+    "meaning": "excuse me for asking, but …",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "繰り返しになりますが",
+    "reading": "くりかえしになりますが",
+    "meaning": "at the risk of repeating myself",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "契約を確認する",
+    "reading": "けいやくをかくにんする",
+    "meaning": "to confirm a contract",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "契約を結ぶ",
+    "reading": "けいやくをむすぶ",
+    "meaning": "to conclude (a contract) a contract",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "契約を更新する",
+    "reading": "けいやくをこうしんする",
+    "meaning": "to update a contract",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "契約を守る",
+    "reading": "けいやくをまもる",
+    "meaning": "to keep / to protect a contract",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "経験を重ねる",
+    "reading": "けいけんをかさねる",
+    "meaning": "to accumulate experience",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "計画を実現する",
+    "reading": "けいかくをじつげんする",
+    "meaning": "to realise a plan",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "結論を出す",
+    "reading": "けつろんをだす",
+    "meaning": "to submit / to put out a conclusion",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "結論を述べる",
+    "reading": "けつろんをのべる",
+    "meaning": "to state a conclusion",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "健康を保つ",
+    "reading": "けんこうをたもつ",
+    "meaning": "to maintain one's health",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "顧客に対応する",
+    "reading": "こきゃくにたいおうする",
+    "meaning": "to deal with the customer",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "顧客を紹介する",
+    "reading": "こきゃくをしょうかいする",
+    "meaning": "to introduce the customer",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "顧客を訪ねる",
+    "reading": "こきゃくをたずねる",
+    "meaning": "to visit the customer",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "差し支えなければ",
+    "reading": "さしつかえなければ",
+    "meaning": "if it is not inconvenient for you",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "取引先に対応する",
+    "reading": "とりひきさきにたいおうする",
+    "meaning": "to deal with the client company",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "取引先を紹介する",
+    "reading": "とりひきさきをしょうかいする",
+    "meaning": "to introduce the client company",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "取引先を訪ねる",
+    "reading": "とりひきさきをたずねる",
+    "meaning": "to visit the client company",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "手が離せません",
+    "reading": "てがはなせません",
+    "meaning": "I'm tied up right now",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "習慣を整える",
+    "reading": "しゅうかんをととのえる",
+    "meaning": "to get in order a habit",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "daily_life",
+      "health"
+    ]
+  },
+  {
+    "phrase": "順を追って説明します",
+    "reading": "じゅんをおってせつめいします",
+    "meaning": "let me explain step by step",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "情報を共有する",
+    "reading": "じょうほうをきょうゆうする",
+    "meaning": "to share information",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology",
+      "work"
+    ]
+  },
+  {
+    "phrase": "申請を受ける",
+    "reading": "しんせいをうける",
+    "meaning": "to take / to receive an application",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "申請を出す",
+    "reading": "しんせいをだす",
+    "meaning": "to submit / to put out an application",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "申請を提出する",
+    "reading": "しんせいをていしゅつする",
+    "meaning": "to submit an application",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "睡眠が足りる",
+    "reading": "すいみんがたりる",
+    "meaning": "to be sufficient sleep",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "睡眠を取る",
+    "reading": "すいみんをとる",
+    "meaning": "to take sleep",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "席を外しております",
+    "reading": "せきをはずしております",
+    "meaning": "they are away from their desk",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "責任を果たす",
+    "reading": "せきにんをはたす",
+    "meaning": "to fulfil responsibility",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "折り返しご連絡します",
+    "reading": "おりかえしごれんらくします",
+    "meaning": "I will call you back",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "先ほど申し上げたように",
+    "reading": "さきほどもうしあげたように",
+    "meaning": "as I mentioned earlier",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "formal_situations",
+      "work"
+    ]
+  },
+  {
+    "phrase": "前向きに検討します",
+    "reading": "まえむきにけんとうします",
+    "meaning": "we will consider it positively",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "打ち合わせを延期する",
+    "reading": "うちあわせをえんきする",
+    "meaning": "to postpone a planning meeting",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "打ち合わせを始める",
+    "reading": "うちあわせをはじめる",
+    "meaning": "to start a planning meeting",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "打ち合わせを予約する",
+    "reading": "うちあわせをよやくする",
+    "meaning": "to reserve a planning meeting",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "体調を整える",
+    "reading": "たいちょうをととのえる",
+    "meaning": "to get in order one's physical condition",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "health"
+    ]
+  },
+  {
+    "phrase": "対策を検討する",
+    "reading": "たいさくをけんとうする",
+    "meaning": "to consider countermeasures",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "対策を進める",
+    "reading": "たいさくをすすめる",
+    "meaning": "to move forward with countermeasures",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "対策を立てる",
+    "reading": "たいさくをたてる",
+    "meaning": "to draw up countermeasures",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "通信が不安定です",
+    "reading": "つうしんがふあんていです",
+    "meaning": "the connection is unstable",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "technology"
+    ]
+  },
+  {
+    "phrase": "提案を検討する",
+    "reading": "ていあんをけんとうする",
+    "meaning": "to consider a proposal",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "認識が合っていますか",
+    "reading": "にんしきがあっていますか",
+    "meaning": "are we on the same page?",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "納期に間に合う",
+    "reading": "のうきにまにあう",
+    "meaning": "to be in time for the delivery deadline",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "納期を延ばす",
+    "reading": "のうきをのばす",
+    "meaning": "to extend the delivery deadline",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "納期を守る",
+    "reading": "のうきをまもる",
+    "meaning": "to keep / to protect the delivery deadline",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "納得がいきません",
+    "reading": "なっとくがいきません",
+    "meaning": "I am not convinced",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "emotions",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "売上が下がる",
+    "reading": "うりあげがさがる",
+    "meaning": "to fall sales",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "売上が上がる",
+    "reading": "うりあげがあがる",
+    "meaning": "to rise sales",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "売上を確認する",
+    "reading": "うりあげをかくにんする",
+    "meaning": "to confirm sales",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "売上を報告する",
+    "reading": "うりあげをほうこくする",
+    "meaning": "to report sales",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "文章を訂正する",
+    "reading": "ぶんしょうをていせいする",
+    "meaning": "to correct a piece of writing",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "報告書を確認する",
+    "reading": "ほうこくしょをかくにんする",
+    "meaning": "to confirm a report",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "報告書を出す",
+    "reading": "ほうこくしょをだす",
+    "meaning": "to submit / to put out a report",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "報告書を書く",
+    "reading": "ほうこくしょをかく",
+    "meaning": "to write a report",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "報告書を提出する",
+    "reading": "ほうこくしょをていしゅつする",
+    "meaning": "to submit a report",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work"
+    ]
+  },
+  {
+    "phrase": "夢を実現する",
+    "reading": "ゆめをじつげんする",
+    "meaning": "to realise a dream",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "目標を達成する",
+    "reading": "もくひょうをたっせいする",
+    "meaning": "to achieve a goal",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "phrase": "問題を検討する",
+    "reading": "もんだいをけんとうする",
+    "meaning": "to consider a problem",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "問題を把握する",
+    "reading": "もんだいをはあくする",
+    "meaning": "to grasp a problem",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "約束を果たす",
+    "reading": "やくそくをはたす",
+    "meaning": "to fulfil a promise",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "daily_life",
+      "opinions"
+    ]
+  },
+  {
+    "phrase": "有給を取る",
+    "reading": "ゆうきゅうをとる",
+    "meaning": "to take paid leave",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "有給を申し込む",
+    "reading": "ゆうきゅうをもうしこむ",
+    "meaning": "to apply for paid leave",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "work",
+      "formal_situations"
+    ]
+  },
+  {
+    "phrase": "理由を述べる",
+    "reading": "りゆうをのべる",
+    "meaning": "to state a reason",
+    "jlpt_level": "N1",
+    "topic_tags": [
+      "opinions"
+    ]
+  }
+]

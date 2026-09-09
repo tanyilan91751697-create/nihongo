@@ -1,0 +1,19 @@
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local data — regenerate with `npm run setup`
+db/*.db
+db/*.db-journal
+db/*.db-wal
+db/*.db-shm
+data/cache/
+recordings/*
+!recordings/.gitkeep
+
+.DS_Store
+*.log
+.env*.local
