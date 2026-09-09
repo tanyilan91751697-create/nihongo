@@ -12,17 +12,17 @@ export type JlptLevel = (typeof JLPT_LEVELS)[number];
 export function levelBadgeClass(level?: string | null): string {
   switch (level) {
     case 'N5':
-      return 'bg-slate-500/15 text-slate-300 border-slate-500/30';
+      return 'bg-slate-500/15 text-slate-600 dark:text-slate-300 border-slate-500/30';
     case 'N4':
-      return 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30';
+      return 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30';
     case 'N3':
-      return 'bg-sky-500/15 text-sky-300 border-sky-500/30';
+      return 'bg-sky-500/15 text-sky-700 dark:text-sky-300 border-sky-500/30';
     case 'N2':
-      return 'bg-orange-500/15 text-orange-300 border-orange-500/30';
+      return 'bg-orange-500/15 text-orange-700 dark:text-orange-300 border-orange-500/30';
     case 'N1':
-      return 'bg-rose-500/15 text-rose-300 border-rose-500/30';
+      return 'bg-rose-500/15 text-rose-700 dark:text-rose-300 border-rose-500/30';
     default:
-      return 'bg-amber-500/15 text-amber-300 border-amber-500/30';
+      return 'bg-amber-500/15 text-amber-700 dark:text-amber-300 border-amber-500/30';
   }
 }
 

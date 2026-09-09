@@ -129,7 +129,7 @@ export default function ErrorsPage() {
           </div>
 
           {loading ? <p className="text-sm text-muted-foreground">Loading…</p> : null}
-          {message ? <p className="mb-3 text-sm text-emerald-400">{message}</p> : null}
+          {message ? <p className="mb-3 text-sm text-emerald-600 dark:text-emerald-400">{message}</p> : null}
 
           <div className="overflow-x-auto rounded-lg border border-border">
             <table className="w-full text-sm">
@@ -152,7 +152,7 @@ export default function ErrorsPage() {
                     </td>
                     <td className="p-2 text-xs text-muted-foreground">{row.source_activity}</td>
                     <td className="jp max-w-[16rem] p-2 text-base text-destructive">{row.attempted}</td>
-                    <td className="jp max-w-[16rem] p-2 text-base text-emerald-400">{row.corrected}</td>
+                    <td className="jp max-w-[16rem] p-2 text-base text-emerald-600 dark:text-emerald-400">{row.corrected}</td>
                     <td className="p-2">
                       <Badge>{row.category.replace('_', ' ')}</Badge>
                     </td>
@@ -291,7 +291,7 @@ export default function ErrorsPage() {
                         {rows.map((row) => (
                           <li key={row.id} className="text-xs">
                             <span className={cn('jp text-sm text-destructive line-through')}>{row.attempted}</span>{' '}
-                            <span className="jp text-sm text-emerald-400">{row.corrected}</span>
+                            <span className="jp text-sm text-emerald-600 dark:text-emerald-400">{row.corrected}</span>
                           </li>
                         ))}
                       </ul>

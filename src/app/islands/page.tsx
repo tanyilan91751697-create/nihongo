@@ -100,7 +100,7 @@ export default function IslandsPage() {
                   : 'Never practised'}
               </p>
               {stale !== null && stale >= 14 ? (
-                <p className="mt-2 text-xs text-amber-400">Stale — worth another run.</p>
+                <p className="mt-2 text-xs text-amber-600 dark:text-amber-400">Stale — worth another run.</p>
               ) : null}
             </Link>
           );

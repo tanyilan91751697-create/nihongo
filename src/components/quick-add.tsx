@@ -162,7 +162,7 @@ export function QuickAdd() {
           </TabsContent>
         </Tabs>
 
-        {status ? <p className="mt-3 text-sm text-emerald-400">{status}</p> : null}
+        {status ? <p className="mt-3 text-sm text-emerald-600 dark:text-emerald-400">{status}</p> : null}
       </DialogContent>
     </Dialog>
   );

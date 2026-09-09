@@ -8,6 +8,7 @@ import {
   BarChart,
   CartesianGrid,
   Cell,
+  Legend,
   Line,
   LineChart,
   Pie,
@@ -73,12 +74,23 @@ const STRAND_LABEL: Record<string, string> = {
   fluency: 'Fluency development',
 };
 
+// Four distinct hues: --primary is too close to the input tint to tell apart in
+// the donut, so fluency gets its own violet.
 const STRAND_COLOR: Record<string, string> = {
   input: 'hsl(var(--level-n3))',
   output: 'hsl(var(--level-n4))',
   language_focused: 'hsl(var(--level-n2))',
-  fluency: 'hsl(var(--primary))',
+  fluency: 'hsl(265 70% 62%)',
 };
+
+/** Round down to a whole percent, but never report a nonzero share as 0%. */
+function formatShare(part: number, total: number): string {
+  if (!total) return '0%';
+  const percent = (part / total) * 100;
+  if (percent === 0) return '0%';
+  if (percent < 1) return '<1%';
+  return `${Math.round(percent)}%`;
+}
 
 const CHART_TOOLTIP = {
   background: 'hsl(var(--popover))',
@@ -178,9 +190,9 @@ export default function DashboardPage() {
 
       {data.strands.underweight.length && data.strands.totalMinutes > 0 ? (
         <div className="mb-6 flex items-start gap-3 rounded-lg border border-amber-500/40 bg-amber-500/10 p-4 text-sm">
-          <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
+          <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-amber-600 dark:text-amber-400" />
           <p>
-            <span className="font-medium text-amber-300">Four Strands are out of balance.</span>{' '}
+            <span className="font-medium text-amber-700 dark:text-amber-300">Four Strands are out of balance.</span>{' '}
             {data.strands.underweight.map((s) => STRAND_LABEL[s] ?? s).join(' and ')}{' '}
             {data.strands.underweight.length === 1 ? 'is' : 'are'} under 15% of this week&apos;s study time.
           </p>
@@ -200,7 +212,7 @@ export default function DashboardPage() {
                   <div className="mb-1 flex items-center justify-between text-xs">
                     <Badge className={levelBadgeClass(row.level)}>{row.level}</Badge>
                     <span className="text-muted-foreground">
-                      {met} met of {row.total} ({row.total ? Math.round((met / row.total) * 100) : 0}%)
+                      {met} met of {row.total} ({formatShare(met, row.total)})
                     </span>
                   </div>
                   <div className="flex h-2 overflow-hidden rounded-full bg-muted">
@@ -240,12 +252,13 @@ export default function DashboardPage() {
           </CardHeader>
           <CardContent className="h-56">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={grammarRows} layout="vertical" margin={{ left: 8 }}>
+              <BarChart data={grammarRows} layout="vertical" margin={{ left: 8, top: 4 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" horizontal={false} />
                 <XAxis type="number" tick={{ fontSize: 10 }} allowDecimals={false} />
                 <YAxis type="category" dataKey="level" tick={{ fontSize: 11 }} width={30} />
                 <RechartsTooltip contentStyle={CHART_TOOLTIP} />
-                <Bar dataKey="total" fill="hsl(var(--muted))" radius={[0, 3, 3, 0]} name="points" />
+                <Legend wrapperStyle={{ fontSize: 11 }} />
+                <Bar dataKey="total" fill="hsl(var(--muted))" radius={[0, 3, 3, 0]} name="points at this level" />
                 <Bar dataKey="seen" fill="hsl(var(--primary))" radius={[0, 3, 3, 0]} name="met in texts" />
               </BarChart>
             </ResponsiveContainer>
@@ -295,6 +308,10 @@ export default function DashboardPage() {
                       <Cell key={entry.strand} fill={STRAND_COLOR[entry.strand]} />
                     ))}
                   </Pie>
+                  <Legend
+                    wrapperStyle={{ fontSize: 11 }}
+                    formatter={(name: string) => STRAND_LABEL[name] ?? name}
+                  />
                   <RechartsTooltip
                     contentStyle={CHART_TOOLTIP}
                     formatter={(value: number, name: string) => [`${value} min`, STRAND_LABEL[name] ?? name]}
@@ -327,7 +344,7 @@ export default function DashboardPage() {
             </div>
             {data.islands.stale.length ? (
               <div>
-                <p className="mb-1 text-xs uppercase tracking-wide text-amber-400">
+                <p className="mb-1 text-xs uppercase tracking-wide text-amber-600 dark:text-amber-400">
                   Stale — not practised in 14 days
                 </p>
                 <ul className="space-y-1">

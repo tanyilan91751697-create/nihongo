@@ -243,7 +243,7 @@ export function WordPanel({
                   + production card
                 </Button>
               </div>
-              {flash ? <p className="text-xs text-emerald-400">{flash}</p> : null}
+              {flash ? <p className="text-xs text-emerald-600 dark:text-emerald-400">{flash}</p> : null}
               {detail?.knowledge ? (
                 <p className="text-xs text-muted-foreground">
                   Knowledge graph: {detail.knowledge.status} · seen {detail.knowledge.encounters}×

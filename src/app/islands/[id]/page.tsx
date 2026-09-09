@@ -354,7 +354,7 @@ function VerificationSection({
                     <div className="min-w-0 text-sm">
                       <span className="jp text-destructive line-through">{change.before || '—'}</span>
                       <span className="mx-2 text-muted-foreground">→</span>
-                      <span className="jp text-emerald-400">{change.after || '—'}</span>
+                      <span className="jp text-emerald-600 dark:text-emerald-400">{change.after || '—'}</span>
                       <p className="jp mt-1 truncate text-xs text-muted-foreground">…{change.context}…</p>
                     </div>
                     <Button
@@ -462,7 +462,7 @@ function DrillSection({
                 </Button>
               </>
             ) : (
-              <p className="text-sm text-amber-400">
+              <p className="text-sm text-amber-600 dark:text-amber-400">
                 Step 2 unlocks {openDrill.available_at ? formatDateTime(openDrill.available_at) : 'in 24 hours'} — the
                 delay is what makes the drill work.
               </p>

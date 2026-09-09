@@ -397,7 +397,7 @@ export function FourThreeTwo({ onSaved }: { onSaved: () => void }) {
                 <Button onClick={saveAudit} disabled={!sessionId || saveState === 'saving'}>
                   {saveState === 'saving' ? <Loader2 className="h-4 w-4 animate-spin" /> : null} Save session
                 </Button>
-                {saveState === 'saved' ? <span className="text-sm text-emerald-400">Saved.</span> : null}
+                {saveState === 'saved' ? <span className="text-sm text-emerald-600 dark:text-emerald-400">Saved.</span> : null}
                 {allPhasesRecorded ? null : (
                   <span className="text-xs text-muted-foreground">
                     {3 - recordings.length} phase(s) still to record.
@@ -548,7 +548,7 @@ function ErrorHarvester({
               />
               <span className="min-w-0">
                 <span className="jp block text-base line-through decoration-destructive/60">{pair.attempted}</span>
-                <span className="jp block text-base text-emerald-400">{pair.corrected || '—'}</span>
+                <span className="jp block text-base text-emerald-600 dark:text-emerald-400">{pair.corrected || '—'}</span>
               </span>
             </label>
           );
@@ -566,7 +566,7 @@ function ErrorHarvester({
         <Button size="sm" onClick={generate} disabled={busy || !selected.length}>
           {busy ? <Loader2 className="h-4 w-4 animate-spin" /> : null} Create {selected.length} error entries
         </Button>
-        {done ? <span className="text-xs text-emerald-400">{done} entries logged with cards.</span> : null}
+        {done ? <span className="text-xs text-emerald-600 dark:text-emerald-400">{done} entries logged with cards.</span> : null}
       </div>
     </div>
   );
