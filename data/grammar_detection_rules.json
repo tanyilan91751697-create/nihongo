@@ -1,0 +1,1089 @@
+{
+  "generated_at": "2026-09-09T15:31:58.136Z",
+  "note": "Token-sequence rules matched against kuromoji (IPADIC) output. Add entries by hand as you test with real text; the Reader reloads this file when it changes.",
+  "rules": [
+    {
+      "slug": "n5_001",
+      "grammarId": 1,
+      "level": "N5",
+      "pattern": "〜あとで",
+      "note": "〜あとで — past-tense verb followed by あと + で",
+      "tokens": [
+        {
+          "pos": [
+            "動詞",
+            "名詞"
+          ]
+        },
+        {
+          "surface": [
+            "た",
+            "だ"
+          ],
+          "pos": [
+            "助動詞"
+          ],
+          "optional": true
+        },
+        {
+          "surface": [
+            "の"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "optional": true
+        },
+        {
+          "surface": [
+            "あと",
+            "後"
+          ]
+        },
+        {
+          "surface": [
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_002",
+      "grammarId": 2,
+      "level": "N5",
+      "pattern": "〜が、〜（逆接）",
+      "note": "〜が、〜 — が as a clause-level contrastive connector (接続助詞)",
+      "tokens": [
+        {
+          "surface": [
+            "です",
+            "ます",
+            "だ"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "接続助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_003",
+      "grammarId": 3,
+      "level": "N5",
+      "pattern": "〜が（主格）",
+      "note": "が as the subject marker (格助詞), excluding the contrastive connector",
+      "tokens": [
+        {
+          "pos": [
+            "名詞"
+          ]
+        },
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "格助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_004",
+      "grammarId": 4,
+      "level": "N5",
+      "pattern": "〜があります／〜がいます",
+      "note": "〜があります／〜がいます — existence",
+      "tokens": [
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "ある",
+            "いる"
+          ],
+          "pos": [
+            "動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_005",
+      "grammarId": 5,
+      "level": "N5",
+      "pattern": "〜がいちばん",
+      "note": "〜がいちばん — superlative",
+      "tokens": [
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "いちばん",
+            "一番"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_006",
+      "grammarId": 6,
+      "level": "N5",
+      "pattern": "〜から〜まで",
+      "note": "〜から〜まで — a span; から and まで in the same sentence",
+      "tokens": [
+        {
+          "surface": [
+            "から"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "notPos": [
+            "記号"
+          ],
+          "repeat": {
+            "min": 1,
+            "max": 6
+          }
+        },
+        {
+          "surface": [
+            "まで"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_007",
+      "grammarId": 7,
+      "level": "N5",
+      "pattern": "〜から（理由）",
+      "note": "〜から（理由）— から attached to a clause-final predicate",
+      "tokens": [
+        {
+          "pos": [
+            "動詞",
+            "形容詞",
+            "助動詞"
+          ],
+          "conjugatedForm": [
+            "基本形"
+          ]
+        },
+        {
+          "surface": [
+            "から"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "接続助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_008",
+      "grammarId": 8,
+      "level": "N5",
+      "pattern": "〜が好きです",
+      "note": "〜が好きです",
+      "tokens": [
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "好き",
+            "嫌い",
+            "上手",
+            "下手"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_009",
+      "grammarId": 9,
+      "level": "N5",
+      "pattern": "〜が欲しい",
+      "note": "〜が欲しい",
+      "tokens": [
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "欲しい",
+            "ほしい"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_010",
+      "grammarId": 10,
+      "level": "N5",
+      "pattern": "〜ことができます",
+      "note": "〜ことができます — ability",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "基本形"
+          ]
+        },
+        {
+          "surface": [
+            "こと",
+            "事"
+          ]
+        },
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "できる",
+            "出来る"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_012",
+      "grammarId": 12,
+      "level": "N5",
+      "pattern": "〜たい",
+      "note": "〜たい — desire; たい attaches to the ます-stem (連用形)",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "連用形",
+            "連用タ接続"
+          ]
+        },
+        {
+          "basicForm": [
+            "たい"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_013",
+      "grammarId": 13,
+      "level": "N5",
+      "pattern": "〜だけ",
+      "note": "〜だけ — only",
+      "tokens": [
+        {
+          "notPos": [
+            "記号"
+          ]
+        },
+        {
+          "surface": [
+            "だけ"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_014",
+      "grammarId": 14,
+      "level": "N5",
+      "pattern": "〜たことがあります",
+      "note": "〜たことがあります — past experience",
+      "tokens": [
+        {
+          "surface": [
+            "た",
+            "だ"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "こと"
+          ]
+        },
+        {
+          "surface": [
+            "が"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "ある"
+          ],
+          "pos": [
+            "動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_015",
+      "grammarId": 15,
+      "level": "N5",
+      "pattern": "〜たり〜たり",
+      "note": "〜たり〜たり — representative listing",
+      "tokens": [
+        {
+          "surface": [
+            "たり",
+            "だり"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "notSurface": [
+            "。",
+            "！",
+            "？"
+          ],
+          "repeat": {
+            "min": 1,
+            "max": 8
+          }
+        },
+        {
+          "surface": [
+            "たり",
+            "だり"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_017",
+      "grammarId": 17,
+      "level": "N5",
+      "pattern": "〜て、〜（並列・継起）",
+      "note": "〜て、〜 — te-form linking two clauses (te followed by a comma)",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "連用タ接続",
+            "連用形"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "、"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_018",
+      "grammarId": 18,
+      "level": "N5",
+      "pattern": "〜で（場所）",
+      "note": "〜で（場所）— place of action",
+      "tokens": [
+        {
+          "pos": [
+            "名詞"
+          ]
+        },
+        {
+          "surface": [
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "格助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_019",
+      "grammarId": 19,
+      "level": "N5",
+      "pattern": "〜ています（進行・状態）",
+      "note": "〜ている — progressive or resultant state",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "連用タ接続",
+            "連用形"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "いる",
+            "る"
+          ],
+          "pos": [
+            "動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_020",
+      "grammarId": 20,
+      "level": "N5",
+      "pattern": "〜てから",
+      "note": "〜てから — after doing",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "連用タ接続",
+            "連用形"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "から"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_021",
+      "grammarId": 21,
+      "level": "N5",
+      "pattern": "〜てください①（指示）",
+      "note": "〜てください — polite request",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "くださる",
+            "ください"
+          ],
+          "surface": [
+            "ください",
+            "下さい"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_024",
+      "grammarId": 24,
+      "level": "N5",
+      "pattern": "〜でしょう",
+      "note": "〜でしょう — probability / seeking agreement",
+      "tokens": [
+        {
+          "surface": [
+            "でしょ",
+            "でしょう"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "う"
+          ],
+          "optional": true
+        }
+      ]
+    },
+    {
+      "slug": "n5_025",
+      "grammarId": 25,
+      "level": "N5",
+      "pattern": "〜てはいけない",
+      "note": "〜てはいけない — prohibition",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "は"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "いける",
+            "いく"
+          ],
+          "surface": [
+            "いけ",
+            "いけません",
+            "いけない"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_026",
+      "grammarId": 26,
+      "level": "N5",
+      "pattern": "〜てもいいです",
+      "note": "〜てもいい — permission",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "も"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "いい",
+            "良い",
+            "よい"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_028",
+      "grammarId": 28,
+      "level": "N5",
+      "pattern": "〜と（並列・共同）",
+      "note": "〜と — exhaustive listing / doing something with someone",
+      "tokens": [
+        {
+          "pos": [
+            "名詞"
+          ]
+        },
+        {
+          "surface": [
+            "と"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "並立助詞",
+            "格助詞"
+          ]
+        },
+        {
+          "pos": [
+            "名詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_030",
+      "grammarId": 30,
+      "level": "N5",
+      "pattern": "〜とき",
+      "note": "〜とき — when",
+      "tokens": [
+        {
+          "notPos": [
+            "記号"
+          ]
+        },
+        {
+          "surface": [
+            "とき",
+            "時"
+          ]
+        },
+        {
+          "surface": [
+            "に",
+            "、",
+            "は"
+          ],
+          "optional": true
+        }
+      ]
+    },
+    {
+      "slug": "n5_031",
+      "grammarId": 31,
+      "level": "N5",
+      "pattern": "〜と思う",
+      "note": "〜と思う — stating an opinion",
+      "tokens": [
+        {
+          "surface": [
+            "と"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "思う",
+            "おもう"
+          ],
+          "pos": [
+            "動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_032",
+      "grammarId": 32,
+      "level": "N5",
+      "pattern": "〜ないで",
+      "note": "〜ないで — doing B without doing A",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "未然形"
+          ]
+        },
+        {
+          "surface": [
+            "ない"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "notSurface": [
+            "ください",
+            "下さい"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_033",
+      "grammarId": 33,
+      "level": "N5",
+      "pattern": "〜ないでください",
+      "note": "〜ないでください — negative request",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "未然形"
+          ]
+        },
+        {
+          "surface": [
+            "ない"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "ください",
+            "下さい"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_034",
+      "grammarId": 34,
+      "level": "N5",
+      "pattern": "〜ながら",
+      "note": "〜ながら — simultaneous actions",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "連用形"
+          ]
+        },
+        {
+          "surface": [
+            "ながら"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_035",
+      "grammarId": 35,
+      "level": "N5",
+      "pattern": "〜なくてもいい",
+      "note": "〜なくてもいい — no obligation",
+      "tokens": [
+        {
+          "surface": [
+            "なく"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "て",
+            "で"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "も"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "いい",
+            "良い",
+            "よい"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_036",
+      "grammarId": 36,
+      "level": "N5",
+      "pattern": "〜なければならない",
+      "note": "〜なければならない — obligation",
+      "tokens": [
+        {
+          "surface": [
+            "なけれ"
+          ],
+          "pos": [
+            "助動詞"
+          ]
+        },
+        {
+          "surface": [
+            "ば"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "surface": [
+            "なり",
+            "いけ",
+            "なら"
+          ],
+          "optional": true
+        },
+        {
+          "notPos": [
+            "記号"
+          ],
+          "optional": true
+        }
+      ]
+    },
+    {
+      "slug": "n5_037",
+      "grammarId": 37,
+      "level": "N5",
+      "pattern": "〜なる",
+      "note": "〜なる — becoming (adverbial form + なる)",
+      "tokens": [
+        {
+          "conjugatedForm": [
+            "連用テ接続",
+            "連用形"
+          ],
+          "pos": [
+            "形容詞"
+          ],
+          "optional": true
+        },
+        {
+          "surface": [
+            "に",
+            "く"
+          ],
+          "optional": true
+        },
+        {
+          "basicForm": [
+            "なる"
+          ],
+          "pos": [
+            "動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_038",
+      "grammarId": 38,
+      "level": "N5",
+      "pattern": "〜に（場所・時間・相手）",
+      "note": "〜に（時間・場所・相手）— に as a case particle",
+      "tokens": [
+        {
+          "pos": [
+            "名詞"
+          ]
+        },
+        {
+          "surface": [
+            "に"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "格助詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_039",
+      "grammarId": 39,
+      "level": "N5",
+      "pattern": "〜に行く（V辞＋にいく）",
+      "note": "〜に行く — going somewhere to do something",
+      "tokens": [
+        {
+          "pos": [
+            "動詞"
+          ],
+          "conjugatedForm": [
+            "連用形"
+          ]
+        },
+        {
+          "surface": [
+            "に"
+          ],
+          "pos": [
+            "助詞"
+          ]
+        },
+        {
+          "basicForm": [
+            "行く",
+            "来る",
+            "帰る"
+          ],
+          "pos": [
+            "動詞"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "n5_040",
+      "grammarId": 40,
+      "level": "N5",
+      "pattern": "〜の（所有・修飾）",
+      "note": "〜の — noun modification / possession",
+      "tokens": [
+        {
+          "pos": [
+            "名詞"
+          ]
+        },
+        {
+          "surface": [
+            "の"
+          ],
+          "pos": [
+            "助詞"
+          ],
+          "posDetail": [
+            "連体化"
+          ]
+        },
+        {
+          "pos": [
+            "名詞"
+          ]
+        }
+      ]
+    }
+  ]
+}
