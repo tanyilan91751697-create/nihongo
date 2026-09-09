@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Dark by default — this is an evening desk tool. The light palette is opt-in
+ * via [data-theme="light"] on <html>, set by the theme toggle before paint.
+ */
+@layer base {
+  :root {
+    --background: 222 14% 9%;
+    --foreground: 210 20% 92%;
+    --card: 222 14% 12%;
+    --card-foreground: 210 20% 92%;
+    --popover: 222 14% 12%;
+    --popover-foreground: 210 20% 92%;
+    --primary: 199 89% 58%;
+    --primary-foreground: 222 14% 9%;
+    --secondary: 222 12% 18%;
+    --secondary-foreground: 210 20% 92%;
+    --muted: 222 12% 16%;
+    --muted-foreground: 215 14% 62%;
+    --accent: 222 12% 20%;
+    --accent-foreground: 210 20% 92%;
+    --destructive: 0 72% 58%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 222 12% 20%;
+    --input: 222 12% 22%;
+    --ring: 199 89% 58%;
+    --radius: 0.6rem;
+
+    /* JLPT level tints, used by the Reader's difficulty colouring. */
+    --level-n5: 0 0% 100%;
+    --level-n4: 142 60% 45%;
+    --level-n3: 205 80% 55%;
+    --level-n2: 32 90% 55%;
+    --level-n1: 0 78% 60%;
+    --level-unknown: 48 92% 55%;
+  }
+
+  :root[data-theme='light'] {
+    --background: 40 30% 97%;
+    --foreground: 222 20% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 20% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 20% 14%;
+    --primary: 199 89% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 40 20% 92%;
+    --secondary-foreground: 222 20% 14%;
+    --muted: 40 20% 93%;
+    --muted-foreground: 222 10% 40%;
+    --accent: 40 20% 90%;
+    --accent-foreground: 222 20% 14%;
+    --destructive: 0 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 12% 85%;
+    --input: 40 12% 88%;
+    --ring: 199 89% 42%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
+
+@layer components {
+  /* Japanese text is always large enough to read comfortably. */
+  .jp {
+    @apply font-jp;
+    font-size: 1.25rem;
+    line-height: 2.1;
+  }
+
+  .jp-study {
+    @apply font-jp;
+    font-size: 1.5rem;
+    line-height: 2.4;
+  }
+
+  .jp-display {
+    @apply font-jp;
+    font-size: 2.25rem;
+    line-height: 1.6;
+  }
+
+  ruby rt {
+    font-size: 0.55em;
+    color: hsl(var(--muted-foreground));
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+
+  .furigana-off ruby rt {
+    display: none;
+  }
+}
+
+/* Level tints for reader tokens. */
+.level-N4 { background-color: hsl(var(--level-n4) / 0.18); }
+.level-N3 { background-color: hsl(var(--level-n3) / 0.18); }
+.level-N2 { background-color: hsl(var(--level-n2) / 0.2); }
+.level-N1 { background-color: hsl(var(--level-n1) / 0.2); }
+.level-unknown { background-color: hsl(var(--level-unknown) / 0.22); }
+
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--border));
+  border-radius: 4px;
+}

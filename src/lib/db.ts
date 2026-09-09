@@ -301,3 +301,75 @@ export function setSetting(key: string, value: string) {
      ON CONFLICT(key) DO UPDATE SET value = excluded.value, updated_at = datetime('now')`,
   ).run(key, value);
 }
+
+// ---------------------------------------------------------------------------
+// Bulk lookup for the Reader
+// ---------------------------------------------------------------------------
+
+export type FormInfo = {
+  vocabularyId: number | null;
+  jlptLevel: string | null;
+  isCommon: boolean;
+  reading: string | null;
+  gloss: string | null;
+};
+
+/**
+ * Resolve many dictionary forms in one pass.
+ *
+ * The Reader needs a JLPT level for every token in a text; doing that with one
+ * ranked lookup per token turns a 400-word article into 400 LIKE queries. This
+ * pulls all candidate rows with two indexed IN clauses and picks the best row
+ * per form in memory.
+ */
+export function bulkLookup(forms: string[]): Map<string, FormInfo> {
+  const result = new Map<string, FormInfo>();
+  const unique = [...new Set(forms.filter(Boolean))];
+  if (!unique.length) return result;
+
+  const chunkSize = 400;
+  const candidates = new Map<string, VocabularyRow[]>();
+  for (let i = 0; i < unique.length; i += chunkSize) {
+    const slice = unique.slice(i, i + chunkSize);
+    const placeholders = slice.map(() => '?').join(',');
+    const rows = db
+      .prepare(
+        `SELECT id, kanji, reading, glosses, jlpt_level, is_common
+         FROM vocabulary
+         WHERE kanji IN (${placeholders}) OR reading IN (${placeholders})`,
+      )
+      .all(...slice, ...slice) as VocabularyRow[];
+    for (const row of rows) {
+      for (const key of [row.kanji, row.reading]) {
+        if (!key) continue;
+        const arr = candidates.get(key);
+        if (arr) arr.push(row);
+        else candidates.set(key, [row]);
+      }
+    }
+  }
+
+  for (const form of unique) {
+    const rows = candidates.get(form);
+    if (!rows?.length) continue;
+    // Prefer a kanji-writing match, then a JLPT-tagged entry, then a common one.
+    const best = rows
+      .map((row) => ({
+        row,
+        score:
+          (row.kanji === form ? 20 : 0) +
+          (row.jlpt_level ? 12 : 0) +
+          (row.is_common ? 6 : 0) +
+          (row.reading === form ? 3 : 0),
+      }))
+      .sort((a, b) => b.score - a.score)[0].row;
+    result.set(form, {
+      vocabularyId: best.id,
+      jlptLevel: best.jlpt_level,
+      isCommon: Boolean(best.is_common),
+      reading: best.reading,
+      gloss: best.glosses?.split('\n')[0] ?? null,
+    });
+  }
+  return result;
+}

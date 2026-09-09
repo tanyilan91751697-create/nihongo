@@ -1,5 +1,5 @@
 import path from 'node:path';
-import kuromoji from 'kuromoji';
+import kuromoji, { type Tokenizer } from 'kuromoji';
 import { toHiragana } from 'wanakana';
 
 /**
@@ -44,17 +44,17 @@ export type Token = {
 
 declare global {
   // eslint-disable-next-line no-var
-  var __kuromojiTokenizer: Promise<kuromoji.Tokenizer<KuromojiToken>> | undefined;
+  var __kuromojiTokenizer: Promise<Tokenizer<KuromojiToken>> | undefined;
 }
 
 const DICT_PATH = path.join(process.cwd(), 'node_modules', 'kuromoji', 'dict');
 
-export function getTokenizer(): Promise<kuromoji.Tokenizer<KuromojiToken>> {
+export function getTokenizer(): Promise<Tokenizer<KuromojiToken>> {
   if (!globalThis.__kuromojiTokenizer) {
     globalThis.__kuromojiTokenizer = new Promise((resolve, reject) => {
-      kuromoji.builder({ dicPath: DICT_PATH }).build((err, tokenizer) => {
+      kuromoji.builder<KuromojiToken>({ dicPath: DICT_PATH }).build((err, tokenizer) => {
         if (err) reject(err);
-        else resolve(tokenizer as kuromoji.Tokenizer<KuromojiToken>);
+        else resolve(tokenizer as Tokenizer<KuromojiToken>);
       });
     });
   }

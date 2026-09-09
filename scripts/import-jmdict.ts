@@ -199,9 +199,23 @@ async function importFromMirror(): Promise<number> {
     for (const e of entries) {
       const reading = (e.reading || e.kanji || '').trim();
       if (!reading) continue;
-      // The mirror mixes Tatoeba example sentences into the gloss array;
-      // anything containing Japanese script is an example, not a gloss.
-      const glosses = (e.glossary_en ?? []).filter((g) => g && !HAS_JAPANESE.test(g));
+      // The mirror mixes Tatoeba example pairs into the gloss array as a
+      // Japanese sentence followed by its English translation. Drop both: a
+      // sentence is not a gloss, and its translation would read as one.
+      const glosses: string[] = [];
+      let skipTranslation = false;
+      for (const gloss of e.glossary_en ?? []) {
+        if (!gloss) continue;
+        if (HAS_JAPANESE.test(gloss)) {
+          skipTranslation = true;
+          continue;
+        }
+        if (skipTranslation) {
+          skipTranslation = false;
+          continue;
+        }
+        glosses.push(gloss);
+      }
       if (!glosses.length) continue;
       const seq = Number(e.sequence) || null;
       if (seq !== null) {

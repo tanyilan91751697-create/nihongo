@@ -226,7 +226,8 @@ const RULES: Record<string, { tokens: DetectionRule['tokens']; note?: string; pr
     note: '〜とき — when',
     tokens: [
       { notPos: ['記号'] },
-      { surface: ['とき', '時'] },
+      // The reading pins this to とき: 六時 (ろくジ) is a clock time, not the pattern.
+      { surface: ['とき', '時'], reading: ['とき'] },
       { surface: ['に', '、', 'は'], optional: true },
     ],
     probe: '子供のとき、よく公園で遊びました。',
