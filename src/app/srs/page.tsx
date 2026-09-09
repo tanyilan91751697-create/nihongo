@@ -35,6 +35,14 @@ type DueCard = {
   reps: number;
   lapses: number;
   intervals: Record<string, { due: string; days: number }>;
+  pitch: { pattern: string | null; position: number | null } | null;
+};
+
+const PITCH_LABEL: Record<string, string> = {
+  heiban: 'heiban (flat)',
+  atamadaka: 'atamadaka (drop after mora 1)',
+  nakadaka: 'nakadaka (drop mid-word)',
+  odaka: 'odaka (drop after the word)',
 };
 
 type Stats = {
@@ -218,6 +226,12 @@ export default function SrsPage() {
                       <>
                         {card.reading ? <p className="jp text-xl text-muted-foreground">{card.reading}</p> : null}
                         <p className="text-lg">{card.back}</p>
+                        {card.pitch?.pattern ? (
+                          <p className="text-sm text-muted-foreground">
+                            Pitch: {PITCH_LABEL[card.pitch.pattern] ?? card.pitch.pattern}
+                            {card.pitch.position !== null ? ` [${card.pitch.position}]` : ''}
+                          </p>
+                        ) : null}
                       </>
                     ) : (
                       <>

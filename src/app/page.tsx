@@ -50,7 +50,11 @@ type Dashboard = {
     byStatus: { status: string; n: number }[];
     stale: { id: number; topic: string; status: string; last_practiced_at: string | null }[];
   };
-  errors: { byCategory: { category: string; n: number }[]; overTime: { day: string; n: number }[] };
+  errors: {
+    byCategory: { category: string; n: number }[];
+    overTime: { day: string; n: number }[];
+    topPattern: { label: string; count: number } | null;
+  };
   timeline: {
     id: number;
     activity: string;
@@ -391,6 +395,15 @@ export default function DashboardPage() {
                 <p className="text-xs text-muted-foreground">No errors logged in the last 30 days.</p>
               ) : null}
             </div>
+            {data.errors.topPattern ? (
+              <p className="text-sm">
+                <span className="text-muted-foreground">Current top pattern: </span>
+                <span className="jp">{data.errors.topPattern.label}</span>{' '}
+                <span className="text-muted-foreground">
+                  ({data.errors.topPattern.count} in the last 14 days)
+                </span>
+              </p>
+            ) : null}
             <Button variant="ghost" size="sm" asChild className="-ml-3">
               <Link href="/errors">
                 Open the error log <ArrowRight className="h-3.5 w-3.5" />

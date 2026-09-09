@@ -189,6 +189,36 @@ export function islandPortfolio() {
   return { byStatus, stale };
 }
 
+const PARTICLES = ['は', 'が', 'を', 'に', 'で', 'へ', 'と', 'も', 'の', 'から', 'まで', 'より', 'ば', 'や'];
+
+/**
+ * The single most frequent error pattern of the last two weeks, named as
+ * precisely as the data allows — a specific particle swap where one is
+ * identifiable, otherwise the category.
+ */
+export function topErrorPattern(days = 14): { label: string; count: number } | null {
+  const rows = db
+    .prepare(
+      `SELECT attempted, corrected, category FROM errors WHERE occurred_at >= datetime('now', ?)`,
+    )
+    .all(`-${days} days`) as { attempted: string; corrected: string; category: string }[];
+
+  const counts = new Map<string, number>();
+  for (const row of rows) {
+    let label = `${row.category.replace('_', ' ')} errors`;
+    if (row.category === 'particle') {
+      const before = PARTICLES.filter((p) => row.attempted.includes(p));
+      const after = PARTICLES.filter((p) => row.corrected.includes(p));
+      const removed = before.filter((p) => !after.includes(p));
+      const added = after.filter((p) => !before.includes(p));
+      if (removed.length === 1 && added.length === 1) label = `${removed[0]} → ${added[0]} particle errors`;
+    }
+    counts.set(label, (counts.get(label) ?? 0) + 1);
+  }
+  const top = [...counts.entries()].sort((a, b) => b[1] - a[1])[0];
+  return top ? { label: top[0], count: top[1] } : null;
+}
+
 export function errorTrends(days = 30) {
   const byCategory = db
     .prepare(
@@ -204,7 +234,7 @@ export function errorTrends(days = 30) {
        GROUP BY day ORDER BY day`,
     )
     .all(`-${days} days`) as { day: string; n: number }[];
-  return { byCategory, overTime };
+  return { byCategory, overTime, topPattern: topErrorPattern(14) };
 }
 
 /**

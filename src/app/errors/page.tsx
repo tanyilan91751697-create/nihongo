@@ -138,6 +138,7 @@ export default function ErrorsPage() {
                   <th className="p-2 font-medium">Date</th>
                   <th className="p-2 font-medium">Source</th>
                   <th className="p-2 font-medium">What I tried</th>
+                  <th className="p-2 font-medium">The error</th>
                   <th className="p-2 font-medium">Corrected</th>
                   <th className="p-2 font-medium">Category</th>
                   <th className="p-2 font-medium">Card</th>
@@ -151,7 +152,8 @@ export default function ErrorsPage() {
                       {formatDate(row.occurred_at)}
                     </td>
                     <td className="p-2 text-xs text-muted-foreground">{row.source_activity}</td>
-                    <td className="jp max-w-[16rem] p-2 text-base text-destructive">{row.attempted}</td>
+                    <td className="jp max-w-[14rem] p-2 text-base text-destructive">{row.attempted}</td>
+                    <td className="jp max-w-[10rem] p-2 text-sm text-muted-foreground">{row.error_text ?? '—'}</td>
                     <td className="jp max-w-[16rem] p-2 text-base text-emerald-600 dark:text-emerald-400">{row.corrected}</td>
                     <td className="p-2">
                       <Badge>{row.category.replace('_', ' ')}</Badge>
@@ -311,6 +313,7 @@ export default function ErrorsPage() {
 
 function QuickAddError({ onCreated }: { onCreated: () => void }) {
   const [attempted, setAttempted] = useState('');
+  const [errorText, setErrorText] = useState('');
   const [corrected, setCorrected] = useState('');
   const [category, setCategory] = useState('particle');
   const [source, setSource] = useState('manual');
@@ -327,6 +330,7 @@ function QuickAddError({ onCreated }: { onCreated: () => void }) {
       body: JSON.stringify({
         attempted,
         corrected,
+        error_text: errorText,
         category,
         source_activity: source,
         notes,
@@ -335,6 +339,7 @@ function QuickAddError({ onCreated }: { onCreated: () => void }) {
     });
     setBusy(false);
     setAttempted('');
+    setErrorText('');
     setCorrected('');
     setNotes('');
     onCreated();
@@ -361,6 +366,12 @@ function QuickAddError({ onCreated }: { onCreated: () => void }) {
           />
         </div>
         <div className="mt-3 flex flex-wrap items-center gap-3">
+          <Input
+            className="jp w-44"
+            placeholder="The error itself"
+            value={errorText}
+            onChange={(event) => setErrorText(event.target.value)}
+          />
           <Select value={category} onChange={(event) => setCategory(event.target.value)} className="w-44">
             {CATEGORIES.map((c) => (
               <option key={c} value={c}>
