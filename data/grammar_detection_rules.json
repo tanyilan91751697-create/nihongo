@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-09-09T16:04:45.660Z",
+  "generated_at": "2026-09-09T16:12:08.018Z",
   "note": "Token-sequence rules matched against kuromoji (IPADIC) output. Add entries by hand as you test with real text; the Reader reloads this file when it changes.",
   "rules": [
     {
       "slug": "n5_001",
-      "grammarId": 1,
       "level": "N5",
       "pattern": "〜あとで",
       "note": "〜あとで — past-tense verb followed by あと + で",
@@ -52,7 +51,6 @@
     },
     {
       "slug": "n5_002",
-      "grammarId": 2,
       "level": "N5",
       "pattern": "〜が、〜（逆接）",
       "note": "〜が、〜 — が as a clause-level contrastive connector (接続助詞)",
@@ -82,7 +80,6 @@
     },
     {
       "slug": "n5_003",
-      "grammarId": 3,
       "level": "N5",
       "pattern": "〜が（主格）",
       "note": "が as the subject marker (格助詞), excluding the contrastive connector",
@@ -107,7 +104,6 @@
     },
     {
       "slug": "n5_004",
-      "grammarId": 4,
       "level": "N5",
       "pattern": "〜があります／〜がいます",
       "note": "〜があります／〜がいます — existence",
@@ -133,7 +129,6 @@
     },
     {
       "slug": "n5_005",
-      "grammarId": 5,
       "level": "N5",
       "pattern": "〜がいちばん",
       "note": "〜がいちばん — superlative",
@@ -156,7 +151,6 @@
     },
     {
       "slug": "n5_006",
-      "grammarId": 6,
       "level": "N5",
       "pattern": "〜から〜まで",
       "note": "〜から〜まで — a span; から and まで in the same sentence",
@@ -190,7 +184,6 @@
     },
     {
       "slug": "n5_007",
-      "grammarId": 7,
       "level": "N5",
       "pattern": "〜から（理由）",
       "note": "〜から（理由）— から attached to a clause-final predicate",
@@ -220,7 +213,6 @@
     },
     {
       "slug": "n5_008",
-      "grammarId": 8,
       "level": "N5",
       "pattern": "〜が好きです",
       "note": "〜が好きです",
@@ -245,7 +237,6 @@
     },
     {
       "slug": "n5_009",
-      "grammarId": 9,
       "level": "N5",
       "pattern": "〜が欲しい",
       "note": "〜が欲しい",
@@ -268,7 +259,6 @@
     },
     {
       "slug": "n5_010",
-      "grammarId": 10,
       "level": "N5",
       "pattern": "〜ことができます",
       "note": "〜ことができます — ability",
@@ -305,7 +295,6 @@
     },
     {
       "slug": "n5_012",
-      "grammarId": 12,
       "level": "N5",
       "pattern": "〜たい",
       "note": "〜たい — desire; たい attaches to the ます-stem (連用形)",
@@ -331,7 +320,6 @@
     },
     {
       "slug": "n5_013",
-      "grammarId": 13,
       "level": "N5",
       "pattern": "〜だけ",
       "note": "〜だけ — only",
@@ -353,7 +341,6 @@
     },
     {
       "slug": "n5_014",
-      "grammarId": 14,
       "level": "N5",
       "pattern": "〜たことがあります",
       "note": "〜たことがあります — past experience",
@@ -392,7 +379,6 @@
     },
     {
       "slug": "n5_015",
-      "grammarId": 15,
       "level": "N5",
       "pattern": "〜たり〜たり",
       "note": "〜たり〜たり — representative listing",
@@ -430,7 +416,6 @@
     },
     {
       "slug": "n5_017",
-      "grammarId": 17,
       "level": "N5",
       "pattern": "〜て、〜（並列・継起）",
       "note": "〜て、〜 — te-form linking two clauses (te followed by a comma)",
@@ -462,7 +447,6 @@
     },
     {
       "slug": "n5_018",
-      "grammarId": 18,
       "level": "N5",
       "pattern": "〜で（場所）",
       "note": "〜で（場所）— place of action",
@@ -487,7 +471,6 @@
     },
     {
       "slug": "n5_019",
-      "grammarId": 19,
       "level": "N5",
       "pattern": "〜ています（進行・状態）",
       "note": "〜ている — progressive or resultant state",
@@ -523,7 +506,6 @@
     },
     {
       "slug": "n5_020",
-      "grammarId": 20,
       "level": "N5",
       "pattern": "〜てから",
       "note": "〜てから — after doing",
@@ -558,7 +540,6 @@
     },
     {
       "slug": "n5_021",
-      "grammarId": 21,
       "level": "N5",
       "pattern": "〜てください①（指示）",
       "note": "〜てください — polite request",
@@ -591,7 +572,6 @@
     },
     {
       "slug": "n5_024",
-      "grammarId": 24,
       "level": "N5",
       "pattern": "〜でしょう",
       "note": "〜でしょう — probability / seeking agreement",
@@ -615,7 +595,6 @@
     },
     {
       "slug": "n5_025",
-      "grammarId": 25,
       "level": "N5",
       "pattern": "〜てはいけない",
       "note": "〜てはいけない — prohibition",
@@ -657,7 +636,6 @@
     },
     {
       "slug": "n5_026",
-      "grammarId": 26,
       "level": "N5",
       "pattern": "〜てもいいです",
       "note": "〜てもいい — permission",
@@ -695,7 +673,6 @@
     },
     {
       "slug": "n5_028",
-      "grammarId": 28,
       "level": "N5",
       "pattern": "〜と（並列・共同）",
       "note": "〜と — exhaustive listing / doing something with someone",
@@ -726,7 +703,6 @@
     },
     {
       "slug": "n5_030",
-      "grammarId": 30,
       "level": "N5",
       "pattern": "〜とき",
       "note": "〜とき — when",
@@ -757,7 +733,6 @@
     },
     {
       "slug": "n5_031",
-      "grammarId": 31,
       "level": "N5",
       "pattern": "〜と思う",
       "note": "〜と思う — stating an opinion",
@@ -783,7 +758,6 @@
     },
     {
       "slug": "n5_032",
-      "grammarId": 32,
       "level": "N5",
       "pattern": "〜ないで",
       "note": "〜ないで — doing B without doing A",
@@ -822,7 +796,6 @@
     },
     {
       "slug": "n5_033",
-      "grammarId": 33,
       "level": "N5",
       "pattern": "〜ないでください",
       "note": "〜ないでください — negative request",
@@ -861,7 +834,6 @@
     },
     {
       "slug": "n5_034",
-      "grammarId": 34,
       "level": "N5",
       "pattern": "〜ながら",
       "note": "〜ながら — simultaneous actions",
@@ -886,7 +858,6 @@
     },
     {
       "slug": "n5_035",
-      "grammarId": 35,
       "level": "N5",
       "pattern": "〜なくてもいい",
       "note": "〜なくてもいい — no obligation",
@@ -927,7 +898,6 @@
     },
     {
       "slug": "n5_036",
-      "grammarId": 36,
       "level": "N5",
       "pattern": "〜なければならない",
       "note": "〜なければならない — obligation",
@@ -966,7 +936,6 @@
     },
     {
       "slug": "n5_037",
-      "grammarId": 37,
       "level": "N5",
       "pattern": "〜なる",
       "note": "〜なる — becoming (adverbial form + なる)",
@@ -1000,7 +969,6 @@
     },
     {
       "slug": "n5_038",
-      "grammarId": 38,
       "level": "N5",
       "pattern": "〜に（場所・時間・相手）",
       "note": "〜に（時間・場所・相手）— に as a case particle",
@@ -1025,7 +993,6 @@
     },
     {
       "slug": "n5_039",
-      "grammarId": 39,
       "level": "N5",
       "pattern": "〜に行く（V辞＋にいく）",
       "note": "〜に行く — going somewhere to do something",
@@ -1060,7 +1027,6 @@
     },
     {
       "slug": "n5_040",
-      "grammarId": 40,
       "level": "N5",
       "pattern": "〜の（所有・修飾）",
       "note": "〜の — noun modification / possession",

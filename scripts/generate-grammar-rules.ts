@@ -342,8 +342,9 @@ async function main() {
     const spec = RULES[point.slug];
     if (!spec) continue;
     rules.push({
+      // Deliberately no row id: slug is the stable key, and ids move whenever
+      // the grammar set is reimported.
       slug: point.slug,
-      grammarId: point.id,
       level: point.level,
       pattern: point.pattern,
       note: spec.note,

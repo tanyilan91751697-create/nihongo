@@ -80,17 +80,25 @@ export async function analyzeText(
   });
 
   const matches = detectGrammar(tokens, loadRules());
-  const meanings = new Map<string, string | null>();
+
+  // Resolve each match against the database by slug, not by the id stored in
+  // the rules file: row ids change whenever the grammar set is reimported, and
+  // a stale id would either mislabel an encounter or break its foreign key.
+  const points = new Map<string, { id: number; meaning: string | null }>();
   if (matches.length) {
     const slugs = [...new Set(matches.map((m) => m.slug))];
     const rows = db
       .prepare(
-        `SELECT slug, meaning_en FROM grammar_points WHERE slug IN (${slugs.map(() => '?').join(',')})`,
+        `SELECT id, slug, meaning_en FROM grammar_points WHERE slug IN (${slugs.map(() => '?').join(',')})`,
       )
-      .all(...slugs) as { slug: string; meaning_en: string | null }[];
-    for (const row of rows) meanings.set(row.slug, row.meaning_en);
+      .all(...slugs) as { id: number; slug: string; meaning_en: string | null }[];
+    for (const row of rows) points.set(row.slug, { id: row.id, meaning: row.meaning_en });
   }
-  const grammar = matches.map((m) => ({ ...m, meaning: meanings.get(m.slug) ?? null }));
+  const grammar = matches.map((m) => ({
+    ...m,
+    grammarId: points.get(m.slug)?.id,
+    meaning: points.get(m.slug)?.meaning ?? null,
+  }));
 
   const result: AnalysisResult = {
     tokens: analyzed,
@@ -163,6 +171,8 @@ function saveAnalysis(
     for (const match of result.grammar) {
       insertGrammar.run(
         textId,
+        // NULL rather than a dangling reference when a rule names a grammar
+        // point that is not in this database.
         match.grammarId ?? null,
         match.matchedText,
         sentenceOf(result.sentences, match.sentenceIndex),
